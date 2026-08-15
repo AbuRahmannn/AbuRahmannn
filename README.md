@@ -1,322 +1,384 @@
-# 👋 Hi, I'm Abdul Rahman
+<div align="center">
 
-### 💻 Full Stack Developer | Java & Python Developer | IT Undergraduate
+# 👨‍💻 Abdul Rahman
+
+### `Software Developer in Progress`
+
+**Java • Python • SQL • Web Development • DSA**
+
+<a href="https://github.com/AbuRahmannn">
+<img src="https://img.shields.io/badge/GitHub-AbuRahmannn-0d1117?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/rahmanabd">
+<img src="https://img.shields.io/badge/LinkedIn-Rahman%20Abdul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://x.com/aburahmannn">
+<img src="https://img.shields.io/badge/X-@aburahmannn-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+<a href="mailto:23HP1A1249@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=AbuRahmannn&label=PROFILE%20VIEWS&color=0e75b6&style=flat" alt="Profile Views"/>
+
+</div>
+
+---
+
+## ⚡ `whoami`
+
+```text
+Abdul Rahman
+├── 🎓 IT Undergraduate @ ALIET
+├── 💻 Software Development
+├── ☕ Java
+├── 🐍 Python
+├── 🗄️ SQL / MySQL
+├── 🌐 Web Development
+├── 🧠 Data Structures & Algorithms
+├── 🔐 Cyber Security
+└── 🚀 Building → Learning → Improving
+```
+
+I'm an **Information Technology undergraduate** who enjoys building practical software instead of only learning theory.
+
+My current focus is becoming a strong **software engineer**, with particular interest in **Java, Python, backend development, databases and problem solving**.
+
+> **I don't just want to write code.
+> I want to build things that solve problems.**
+
+---
+
+# 🧭 Developer Journey
+
+```text
+                    ┌──────────────────┐
+                    │   IT UNDERGRAD   │
+                    └────────┬─────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+          ☕ JAVA         🐍 PYTHON       🌐 WEB
+              │              │              │
+              └──────────────┼──────────────┘
+                             ▼
+                    🧠 DSA + PROBLEM
+                         SOLVING
+                             │
+                             ▼
+                    🗄️ DATABASES
+                             │
+                             ▼
+                    ⚙️ BACKEND
+                             │
+                             ▼
+                    🚀 SOFTWARE
+                      ENGINEERING
+```
+
+---
+
+# 🛠️ My Arsenal
+
+### 💻 Programming
 
 <p align="center">
-  <a href="https://github.com/AbuRahmannn">
-    <img src="https://img.shields.io/github/followers/AbuRahmannn?style=for-the-badge&logo=github&label=Followers" alt="GitHub Followers">
-  </a>
-  <a href="https://github.com/AbuRahmannn?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-5-181717?style=for-the-badge&logo=github" alt="Repositories">
-  </a>
-  <a href="mailto:23HP1A1249@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
-
----
-
-## 🚀 About Me
-
-I'm an **Information Technology undergraduate at Andhra Loyola Institute of Engineering and Technology (ALIET), Vijayawada**, passionate about building practical software and solving real-world problems.
-
-* 🎓 B.Tech Information Technology — **ALIET**
-* 💻 Focused on **Java, Python, SQL & Web Development**
-* 🧠 Learning **Data Structures & Algorithms**
-* 🌐 Interested in **Full Stack & Backend Development**
-* 🔐 Cyber Security Internship Experience
-* 🏆 Built real-world projects and hackathon solutions
-* 🌱 Currently improving my software engineering skills
-* 🤝 Open to internships, collaborations and development opportunities
-
----
-
-# 🛠️ Tech Stack
-
-### 👨‍💻 Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,python,js" alt="Java Python JavaScript">
+<img src="https://skillicons.dev/icons?i=java,python,js" />
 </p>
 
 ### 🌐 Frontend
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML CSS JavaScript">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js" />
 </p>
 
-### 🗄️ Database & Backend
+### ⚙️ Backend / Cloud
 
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,firebase,django" alt="MySQL Firebase Django">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=django,firebase" />
 </p>
 
-### ⚙️ Tools
+### 🗄️ Database
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,bash" alt="Git GitHub Bash">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+### 🔧 Tools
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github,bash" />
 </p>
 
 ---
 
-# 📚 Core Computer Science
+# 🚀 Things I've Built
 
-* Data Structures & Algorithms
-* Object-Oriented Programming
-* Database Management Systems
-* Operating Systems
-* Computer Networks
-* SQL & JDBC
-* Problem Solving
+## 🌍 01 — AQI Tester
 
----
+### `Real-Time Air Quality Monitoring`
 
-# 🚀 Featured Projects
+<a href="https://github.com/AbuRahmannn/AQI-Tester">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-## 🌍 AQI Tester
+<br/><br/>
 
-### Real-Time Air Quality Monitoring System
+> A real-time environmental monitoring application that transforms air-quality data into interactive visual insights.
 
-<p>
-  <a href="https://github.com/AbuRahmannn/AQI-Tester">
-    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="AQI Tester GitHub">
-  </a>
-</p>
+### 🔥 What it does
 
-A real-time air-quality monitoring application providing pollution analytics, geographical visualization and historical trends.
+| Capability    | Description                            |
+| ------------- | -------------------------------------- |
+| 🌫️ Pollution | PM2.5, PM10, CO, O₃ & NO₂              |
+| 🗺️ Maps      | Interactive geographical visualization |
+| 📊 Analytics  | Historical pollution trends            |
+| 🏙️ Cities    | City-wise comparison                   |
+| 📈 Charts     | Dynamic Chart.js visualizations        |
+| 💡 Insights   | AQI interpretation & recommendations   |
+| 🗄️ Data      | Historical database storage            |
 
-### ✨ Features
+**Stack**
 
-* 🌫️ PM2.5 monitoring
-* 🌫️ PM10 monitoring
-* 🏭 CO monitoring
-* 🧪 O₃ monitoring
-* 🧪 NO₂ monitoring
-* 📊 Historical pollution trends
-* 🗺️ Interactive pollution mapping
-* 🏙️ City-wise comparison
-* 📈 Chart.js analytics
-* 🗄️ SQL-based historical data
-* 💡 AQI insights and health recommendations
-
-**Technologies:** Python • Django • SQL • JavaScript • Chart.js • Leaflet.js
+`Python` `Django` `SQL` `JavaScript` `Chart.js` `Leaflet.js`
 
 ---
 
-## 🌾 AgriSetu
+# 🌾 02 — AgriSetu
 
-### AI-Powered Smart Crop Advisory Platform
+### `Smart Crop Advisory Platform`
 
-<p>
-  <a href="https://github.com/AbuRahmannn/AgriSetu">
-    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="AgriSetu GitHub">
-  </a>
-</p>
+<a href="https://github.com/AbuRahmannn/AgriSetu">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-2EA043?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-A smart agricultural platform designed to provide farmers with technology-assisted crop advisory and agricultural insights.
+<br/><br/>
 
-### ✨ Features
+> A multilingual agricultural platform designed to help farmers make better decisions using technology.
 
-* 🌱 Crop recommendation
-* 🔬 Disease detection
-* 🌦️ Weather insights
-* 🧪 Soil analysis
-* 📍 Buyer discovery
-* 🔐 Firebase Authentication
-* ☁️ Firestore database
-* 🗺️ Leaflet.js maps
-* 🌐 Multilingual interface
-* 📱 Responsive design
+### 🌱 Core Modules
 
-**Technologies:** HTML • CSS • JavaScript • Firebase • Leaflet.js
+```text
+🌾 Crop Recommendation
+        │
+        ├── Soil Analysis
+        ├── Crop Insights
+        └── Advisory
+
+🔬 Disease Detection
+        │
+        └── Agricultural Diagnostics
+
+🌦️ Weather
+        │
+        └── Environmental Insights
+
+📍 Buyer Discovery
+        │
+        └── Location-based Mapping
+
+🌐 Multilingual
+        │
+        ├── English
+        ├── Hindi
+        └── Telugu
+```
+
+**Stack**
+
+`HTML` `CSS` `JavaScript` `Firebase` `Firestore` `Leaflet.js`
 
 ---
 
-## 📱 QR Generator
+# 🔳 03 — QR Generator
 
-<p>
-  <a href="https://github.com/AbuRahmannn/QR-Generator-">
-    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="QR Generator GitHub">
-  </a>
-</p>
+### `Simple • Fast • Browser Based`
+
+<a href="https://github.com/AbuRahmannn/QR-Generator-">
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-FF6B35?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 A lightweight web application for generating QR codes directly from the browser.
 
-**Technologies:** HTML • CSS • JavaScript
+**Stack:** `HTML` `CSS` `JavaScript`
 
 ---
 
-## 🧠 DSA in Python
+# 🧠 04 — DSA in Python
 
-<p>
-  <a href="https://github.com/AbuRahmannn/DSA-IN-PYTHON">
-    <img src="https://img.shields.io/badge/View%20Repository-GitHub-181717?style=for-the-badge&logo=github" alt="DSA in Python">
-  </a>
-</p>
+### `Learning Algorithms by Building Them`
 
-A repository dedicated to learning and implementing Data Structures and Algorithms using Python.
+<a href="https://github.com/AbuRahmannn/DSA-IN-PYTHON">
+<img src="https://img.shields.io/badge/EXPLORE%20REPOSITORY-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+A dedicated repository for learning and implementing **Data Structures & Algorithms using Python**.
+
+```text
+Arrays
+  ↓
+Strings
+  ↓
+Linked Lists
+  ↓
+Stacks & Queues
+  ↓
+Trees
+  ↓
+Graphs
+  ↓
+Algorithms
+```
 
 ---
 
-# 💼 Internship
+# 📊 GitHub Command Center
 
-## 🔐 Cyber Security Intern
+<div align="center">
 
-**Datavalley India Pvt. Ltd. & APSCHE Program**
+<img src="https://github-stats-extended.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" width="48%"/>
 
-**May 2026 – June 2026**
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
 
-Worked on practical cybersecurity concepts including:
+</div>
 
-* 🔒 Network Security
-* 🛡️ Threat Assessment
-* 🔑 Authentication
-* 🔐 Cryptography
-* 💻 Secure Software Design
-* ⚠️ Risk Mitigation
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbuRahmannn&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+
+</div>
+
+---
+
+# 🧠 Currently Leveling Up
+
+<div align="center">
+
+|        Area        | Focus                             |
+| :----------------: | :-------------------------------- |
+|     ☕ **Java**     | OOP • Collections • DSA • Backend |
+|    🐍 **Python**   | DSA • Django • APIs • Automation  |
+|     🗄️ **SQL**    | Queries • Database Design • JDBC  |
+|     🌐 **Web**     | HTML • CSS • JavaScript           |
+|   🧠 **CS Core**   | OS • DBMS • Networks              |
+| 🚀 **Engineering** | Clean Code • Git • Projects       |
+
+</div>
+
+---
+
+# 🔐 Industry Experience
+
+### Cyber Security Intern
+
+**Datavalley India Pvt. Ltd. × APSCHE**
+
+`May 2026 — June 2026`
+
+```text
+Network Security
+      +
+Threat Assessment
+      +
+Authentication
+      +
+Cryptography
+      +
+Secure Software Design
+      +
+Risk Mitigation
+```
 
 ---
 
 # 🏆 Certifications & Achievements
 
-* 🥇 Oracle Certified Java Foundations
-* ☁️ Oracle Cloud Infrastructure — AI Foundations
-* 📊 Deloitte Australia — Data Analytics Virtual Experience
-* 🏆 1st Prize — AQI Tester Live Map Project
+<div align="center">
+
+### 🥇 Oracle Certified Java Foundations
+
+### ☁️ Oracle Cloud Infrastructure
+
+### AI Foundations
+
+### 📊 Deloitte Australia
+
+### Data Analytics Virtual Experience — Forage
+
+### 🏆 AQI Tester
+
+### 1st Prize Project
+
+</div>
 
 ---
 
-# 📊 GitHub Statistics
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
-    width="48%"
-    alt="GitHub Statistics"
-  />
-
-<img
- src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=tokyonight&hide_border=true"
- width="40%"
- alt="Top Languages"
-/>
-
-</p>
-
----
-
-# 📈 Contribution Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=AbuRahmannn&theme=tokyo-night&hide_border=true"
-    width="95%"
-    alt="GitHub Contribution Graph"
-  />
-</p>
-
----
-
-# 🧠 Currently Learning
+# 🎯 2026 Mission
 
 ```text
-Java
- ├── OOP
- ├── Data Structures & Algorithms
- ├── Collections
- ├── Exception Handling
- └── Backend Development
+[████████████████░░░░] 80%  → Keep Building
 
-Python
- ├── Problem Solving
- ├── DSA
- ├── Django
- └── APIs
-
-Database
- ├── SQL
- ├── MySQL
- └── JDBC
-
-Web
- ├── HTML
- ├── CSS
- └── JavaScript
+☑ Learn Java
+☑ Learn Python
+☑ Build real projects
+☑ Explore Cyber Security
+☑ Build AQI Tester
+☑ Build AgriSetu
+☐ Master DSA
+☐ Strengthen Backend Development
+☐ Contribute to Open Source
+☐ Become Placement Ready
+☐ Become a Software Engineer
 ```
 
 ---
 
-# 🎯 2026 Goals
+# 🧩 Core Computer Science
 
-* [ ] Master Data Structures & Algorithms
-* [ ] Strengthen Java development
-* [ ] Build production-ready backend applications
-* [ ] Improve SQL and database design
-* [ ] Build more real-world projects
-* [ ] Contribute to open-source projects
-* [ ] Secure a software development internship
-* [ ] Prepare for software engineering placements
-
----
-
-# 🤝 Let's Connect
-
-<p align="center">
-
-<a href="https://github.com/AbuRahmannn">
-  <img src="https://img.shields.io/badge/GitHub-AbuRahmannn-181717?style=for-the-badge&logo=github" alt="GitHub">
-</a>
-
-<a href="https://www.linkedin.com/in/rahmanabd">
-  <img src="https://img.shields.io/badge/LinkedIn-Rahman%20Abdul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-
-<a href="https://x.com/aburahmannn">
-  <img src="https://img.shields.io/badge/X-@aburahmannn-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
-</a>
-
-<a href="https://www.instagram.com/abu.rahmannn/">
-  <img src="https://img.shields.io/badge/Instagram-@abu.rahmannn-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-</a>
-
-<a href="mailto:23HP1A1249@gmail.com">
-  <img src="https://img.shields.io/badge/Email-23HP1A1249%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-</a>
-
-</p>
+```text
+┌─────────────────────────────────────────────┐
+│              COMPUTER SCIENCE               │
+├─────────────────────────────────────────────┤
+│                                             │
+│  🧠 Data Structures & Algorithms             │
+│  🧱 Object-Oriented Programming              │
+│  🗄️ Database Management Systems              │
+│  💻 Operating Systems                        │
+│  🌐 Computer Networks                        │
+│  🔎 SQL & JDBC                               │
+│  🧩 Problem Solving                          │
+│                                             │
+└─────────────────────────────────────────────┘
+```
 
 ---
 
-# 💻 Developer Mode
+# 💻 Developer Philosophy
 
 ```java
 public class AbdulRahman {
 
-    String name = "Abdul Rahman";
-    String role = "IT Undergraduate";
+    private final String mindset =
+        "Learn → Build → Break → Fix → Improve";
 
-    String[] languages = {
-        "Java",
-        "Python",
-        "SQL",
-        "JavaScript"
+    private final String goal =
+        "Become a strong Software Engineer";
+
+    private final String[] principles = {
+        "Write clean code",
+        "Understand before memorizing",
+        "Build real projects",
+        "Keep learning",
+        "Never stop improving"
     };
 
-    String[] interests = {
-        "Software Development",
-        "Backend Development",
-        "DSA",
-        "Cyber Security",
-        "Problem Solving"
-    };
-
-    String currentFocus =
-        "Becoming a better software engineer";
-
-    public static void main(String[] args) {
-
+    public void build() {
         System.out.println(
-            "Building. Learning. Improving. 🚀"
+            "Turning ideas into software 🚀"
         );
     }
 }
@@ -324,10 +386,44 @@ public class AbdulRahman {
 
 ---
 
-<p align="center">
+# 🤝 Connect With Me
 
-### ⭐ Thanks for visiting my profile!
+<div align="center">
 
-**If you like my work, consider starring ⭐ my repositories.**
+<a href="https://github.com/AbuRahmannn">
+<img src="https://img.shields.io/badge/GitHub-AbuRahmannn-181717?style=for-the-badge&logo=github"/>
+</a>
 
-</p>
+<a href="https://www.linkedin.com/in/rahmanabd">
+<img src="https://img.shields.io/badge/LinkedIn-Rahman%20Abdul-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://x.com/aburahmannn">
+<img src="https://img.shields.io/badge/X-@aburahmannn-000000?style=for-the-badge&logo=x"/>
+</a>
+
+<a href="https://www.instagram.com/abu.rahmannn/">
+<img src="https://img.shields.io/badge/Instagram-@abu.rahmannn-E4405F?style=for-the-badge&logo=instagram"/>
+</a>
+
+<a href="mailto:23HP1A1249@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### `⚡ Build something. Learn something. Repeat.`
+
+<br/>
+
+⭐ **If you find something useful here, consider starring the repository.**
+
+<br/>
+
+**Thanks for visiting my profile! 🚀**
+
+</div>
