@@ -1,16 +1,16 @@
 # 👋 Hi, I'm Abdul Rahman
 
-### 💻 Information Technology Undergraduate | Java & Python Developer | Problem Solver
+### 💻 Full Stack Developer | Java & Python Developer | IT Undergraduate
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/AbuRahmannn">
-    <img src="https://img.shields.io/github/followers/AbuRahmannn?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers"/>
+    <img src="https://img.shields.io/github/followers/AbuRahmannn?style=for-the-badge&logo=github&label=Followers" alt="GitHub Followers">
   </a>
-  <a href="https://github.com/AbuRahmannn">
-    <img src="https://img.shields.io/github/stars/AbuRahmannn?label=Stars&style=for-the-badge&logo=github" alt="GitHub Stars"/>
+  <a href="https://github.com/AbuRahmannn?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-5-181717?style=for-the-badge&logo=github" alt="Repositories">
   </a>
   <a href="mailto:23HP1A1249@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
@@ -18,47 +18,48 @@
 
 ## 🚀 About Me
 
-I'm an **Information Technology undergraduate at Andhra Loyola Institute of Engineering and Technology (ALIET), Vijayawada**, currently pursuing my B.Tech.
+I'm an **Information Technology undergraduate at Andhra Loyola Institute of Engineering and Technology (ALIET), Vijayawada**, passionate about building practical software and solving real-world problems.
 
-I enjoy turning ideas into practical software solutions and continuously improving my problem-solving and development skills.
-
-* 🎓 B.Tech in Information Technology — **ALIET**
-* 💻 Currently focused on **Java, Python, SQL & Web Development**
-* 🧠 Strong foundation in **DSA, OOP, DBMS, Operating Systems & Computer Networks**
-* 🔐 Completed an **8-week Cyber Security Internship**
-* 🏆 Built projects for real-world problem solving and hackathon environments
-* 🌱 Currently improving my **DSA, backend development and software engineering skills**
-* 🤝 Open to **internships, collaborations and software development opportunities**
+* 🎓 B.Tech Information Technology — **ALIET**
+* 💻 Focused on **Java, Python, SQL & Web Development**
+* 🧠 Learning **Data Structures & Algorithms**
+* 🌐 Interested in **Full Stack & Backend Development**
+* 🔐 Cyber Security Internship Experience
+* 🏆 Built real-world projects and hackathon solutions
+* 🌱 Currently improving my software engineering skills
+* 🤝 Open to internships, collaborations and development opportunities
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### 👨‍💻 Programming
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,python" />
-</p>
-
-### 🌐 Web Development
+### 👨‍💻 Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js" />
+  <img src="https://skillicons.dev/icons?i=java,python,js" alt="Java Python JavaScript">
 </p>
 
-### 🗄️ Database
+### 🌐 Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql" />
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML CSS JavaScript">
 </p>
 
-### ⚙️ Tools & Technologies
+### 🗄️ Database & Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,bash,firebase" />
+  <img src="https://skillicons.dev/icons?i=mysql,firebase,django" alt="MySQL Firebase Django">
 </p>
 
-### 📚 Core Computer Science
+### ⚙️ Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,bash" alt="Git GitHub Bash">
+</p>
+
+---
+
+# 📚 Core Computer Science
 
 * Data Structures & Algorithms
 * Object-Oriented Programming
@@ -72,40 +73,19 @@ I enjoy turning ideas into practical software solutions and continuously improvi
 
 # 🚀 Featured Projects
 
-## 🌾 AgriSetu — AI-Powered Smart Crop Advisory Platform
+## 🌍 AQI Tester
 
-**Tech:** HTML • CSS • JavaScript • Firebase • Leaflet.js
+### Real-Time Air Quality Monitoring System
 
-AgriSetu is a multilingual agricultural advisory platform designed to help farmers make better decisions through technology.
+<p>
+  <a href="https://github.com/AbuRahmannn/AQI-Tester">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="AQI Tester GitHub">
+  </a>
+</p>
 
-### ✨ Key Features
+A real-time air-quality monitoring application providing pollution analytics, geographical visualization and historical trends.
 
-* 🌱 Crop recommendation
-* 🔬 Disease detection
-* 🌦️ Weather insights
-* 🧪 Soil analysis
-* 📍 Location-based buyer discovery
-* 🔐 Firebase Authentication
-* ☁️ Firestore cloud database
-* 🗺️ Interactive Leaflet.js maps
-* 🌐 English, Hindi & Telugu support
-* 📱 Responsive interface
-
-### 🔗 Repository
-
-👉 **[View AgriSetu on GitHub](https://github.com/AbuRahmannn)**
-
-> Add the dedicated AgriSetu repository URL above once the project has its own GitHub repository.
-
----
-
-## 🌍 AQI Tester — Real-Time Air Quality Monitoring System
-
-**Tech:** Python • Django • SQL • Chart.js • Leaflet.js
-
-A real-time air-quality monitoring application that provides pollution analytics, geographical visualization and historical trends.
-
-### ✨ Key Features
+### ✨ Features
 
 * 🌫️ PM2.5 monitoring
 * 🌫️ PM10 monitoring
@@ -113,27 +93,80 @@ A real-time air-quality monitoring application that provides pollution analytics
 * 🧪 O₃ monitoring
 * 🧪 NO₂ monitoring
 * 📊 Historical pollution trends
-* 🗺️ Interactive pollution maps
+* 🗺️ Interactive pollution mapping
 * 🏙️ City-wise comparison
 * 📈 Chart.js analytics
-* 🗄️ SQL-based historical data storage
+* 🗄️ SQL-based historical data
 * 💡 AQI insights and health recommendations
 
-### 🔗 Repository
-
-👉 **[AQI Tester — GitHub](https://github.com/AbuRahmannn/AQI-Tester)**
+**Technologies:** Python • Django • SQL • JavaScript • Chart.js • Leaflet.js
 
 ---
 
-# 💼 Internship Experience
+## 🌾 AgriSetu
 
-### 🔐 Cyber Security Intern
+### AI-Powered Smart Crop Advisory Platform
+
+<p>
+  <a href="https://github.com/AbuRahmannn/AgriSetu">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="AgriSetu GitHub">
+  </a>
+</p>
+
+A smart agricultural platform designed to provide farmers with technology-assisted crop advisory and agricultural insights.
+
+### ✨ Features
+
+* 🌱 Crop recommendation
+* 🔬 Disease detection
+* 🌦️ Weather insights
+* 🧪 Soil analysis
+* 📍 Buyer discovery
+* 🔐 Firebase Authentication
+* ☁️ Firestore database
+* 🗺️ Leaflet.js maps
+* 🌐 Multilingual interface
+* 📱 Responsive design
+
+**Technologies:** HTML • CSS • JavaScript • Firebase • Leaflet.js
+
+---
+
+## 📱 QR Generator
+
+<p>
+  <a href="https://github.com/AbuRahmannn/QR-Generator-">
+    <img src="https://img.shields.io/badge/View%20Project-GitHub-181717?style=for-the-badge&logo=github" alt="QR Generator GitHub">
+  </a>
+</p>
+
+A lightweight web application for generating QR codes directly from the browser.
+
+**Technologies:** HTML • CSS • JavaScript
+
+---
+
+## 🧠 DSA in Python
+
+<p>
+  <a href="https://github.com/AbuRahmannn/DSA-IN-PYTHON">
+    <img src="https://img.shields.io/badge/View%20Repository-GitHub-181717?style=for-the-badge&logo=github" alt="DSA in Python">
+  </a>
+</p>
+
+A repository dedicated to learning and implementing Data Structures and Algorithms using Python.
+
+---
+
+# 💼 Internship
+
+## 🔐 Cyber Security Intern
 
 **Datavalley India Pvt. Ltd. & APSCHE Program**
 
 **May 2026 – June 2026**
 
-During my internship, I worked on practical cybersecurity concepts including:
+Worked on practical cybersecurity concepts including:
 
 * 🔒 Network Security
 * 🛡️ Threat Assessment
@@ -146,33 +179,40 @@ During my internship, I worked on practical cybersecurity concepts including:
 
 # 🏆 Certifications & Achievements
 
-* 🥇 **Oracle Certified Java Foundations**
-* ☁️ **Oracle Cloud Infrastructure (OCI) AI Foundations**
-* 📊 **Deloitte Australia — Data Analytics Virtual Experience — Forage**
-* 🏆 **1st Prize — AQI Tester Live Map Project**
+* 🥇 Oracle Certified Java Foundations
+* ☁️ Oracle Cloud Infrastructure — AI Foundations
+* 📊 Deloitte Australia — Data Analytics Virtual Experience
+* 🏆 1st Prize — AQI Tester Live Map Project
 
 ---
 
 # 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Abdul Rahman's GitHub Statistics"/>
-</p>
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+    width="48%"
+    alt="GitHub Statistics"
+  />
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbuRahmannn&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
+<img
+ src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=tokyonight&hide_border=true"
+ width="40%"
+ alt="Top Languages"
+/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </p>
 
 ---
 
-# 📈 Contribution Graph
+# 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbuRahmannn&theme=tokyo-night&hide_border=true" alt="GitHub Contribution Graph"/>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=AbuRahmannn&theme=tokyo-night&hide_border=true"
+    width="95%"
+    alt="GitHub Contribution Graph"
+  />
 </p>
 
 ---
@@ -181,7 +221,7 @@ During my internship, I worked on practical cybersecurity concepts including:
 
 ```text
 Java
- ├── Object-Oriented Programming
+ ├── OOP
  ├── Data Structures & Algorithms
  ├── Collections
  ├── Exception Handling
@@ -189,9 +229,9 @@ Java
 
 Python
  ├── Problem Solving
+ ├── DSA
  ├── Django
- ├── APIs
- └── Automation
+ └── APIs
 
 Database
  ├── SQL
@@ -211,7 +251,7 @@ Web
 * [ ] Master Data Structures & Algorithms
 * [ ] Strengthen Java development
 * [ ] Build production-ready backend applications
-* [ ] Improve SQL & database design
+* [ ] Improve SQL and database design
 * [ ] Build more real-world projects
 * [ ] Contribute to open-source projects
 * [ ] Secure a software development internship
@@ -221,48 +261,63 @@ Web
 
 # 🤝 Let's Connect
 
-<p align="left">
+<p align="center">
 
 <a href="https://github.com/AbuRahmannn">
-  <img src="https://img.shields.io/badge/GitHub-AbuRahmannn-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-AbuRahmannn-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+
+<a href="https://www.linkedin.com/in/rahmanabd">
+  <img src="https://img.shields.io/badge/LinkedIn-Rahman%20Abdul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+
+<a href="https://x.com/aburahmannn">
+  <img src="https://img.shields.io/badge/X-@aburahmannn-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+</a>
+
+<a href="https://www.instagram.com/abu.rahmannn/">
+  <img src="https://img.shields.io/badge/Instagram-@abu.rahmannn-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
 </a>
 
 <a href="mailto:23HP1A1249@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-23HP1A1249%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<!-- Replace YOUR_LINKEDIN_URL with your actual LinkedIn profile URL -->
-
-<a href="YOUR_LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LinkedIn-Abdul%20Rahman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/Email-23HP1A1249%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 
 </p>
 
 ---
 
-## 💡 A Little More About Me
+# 💻 Developer Mode
 
 ```java
 public class AbdulRahman {
 
+    String name = "Abdul Rahman";
     String role = "IT Undergraduate";
-    String[] languages = {"Java", "Python", "SQL", "JavaScript"};
+
+    String[] languages = {
+        "Java",
+        "Python",
+        "SQL",
+        "JavaScript"
+    };
 
     String[] interests = {
         "Software Development",
         "Backend Development",
-        "Data Structures & Algorithms",
+        "DSA",
         "Cyber Security",
         "Problem Solving"
     };
 
-    String currentlyLearning = "Building better software every day";
-
-    boolean openToOpportunities = true;
+    String currentFocus =
+        "Becoming a better software engineer";
 
     public static void main(String[] args) {
-        System.out.println("Let's build something awesome! 🚀");
+
+        System.out.println(
+            "Building. Learning. Improving. 🚀"
+        );
     }
 }
 ```
@@ -271,8 +326,8 @@ public class AbdulRahman {
 
 <p align="center">
 
-### ⭐ If you find my projects useful, consider giving them a star!
+### ⭐ Thanks for visiting my profile!
 
-**Thanks for visiting my profile! 🚀**
+**If you like my work, consider starring ⭐ my repositories.**
 
 </p>
