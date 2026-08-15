@@ -1,214 +1,195 @@
-# 🚀 Rahman Abdul Portfolio
+# 👋 Hey, I'm Abdul Rahman
 
-A modern, responsive, and premium developer portfolio showcasing my skills, projects, education, certifications, and achievements. Built with a clean black glassmorphism design, smooth animations, and a recruiter-friendly user experience.
+### 💻 Information Technology Undergraduate | Java & Python Developer | Problem Solver
 
-## 🌐 Live Demo
+I'm an **Information Technology undergraduate at Andhra Loyola Institute of Engineering and Technology (ALIET), Vijayawada**, passionate about building practical software solutions and continuously improving my programming and problem-solving skills.
 
-🔗 Add your deployed portfolio link here
-
-```text
-https://your-portfolio-link.com](https://rahmanabdulportfolio.netlify.app/
-```
+I enjoy working with **Java, Python, SQL, JavaScript, and web technologies**, while strengthening my foundations in **Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems, and Computer Networks**.
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-I'm **Rahman Abdul**, a B.Tech Information Technology student at Andhra Loyola Institute of Engineering and Technology (ALIET), Vijayawada. I am passionate about Full Stack Development, Artificial Intelligence, Cloud Computing, and building impactful software solutions. My experience includes developing scalable web applications, AI-powered systems, and participating as a Team Leader in Smart India Hackathon 2025. 
+* 🎓 B.Tech Information Technology student at **ALIET, Vijayawada**
+* 💻 Currently focusing on **Java, Python & Data Structures**
+* 🌐 Interested in **Backend Development & Software Engineering**
+* 🗄️ Working with **MySQL, SQL & JDBC**
+* 🔐 Completed an **8-week Cyber Security Internship**
+* 🧠 Interested in solving real-world problems through software
+* 🤝 Comfortable working in collaborative environments
+* 📚 Always learning, building, and improving
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### 👨‍💻 Programming
 
-* HTML5
-* CSS3
-* JavaScript
-* React.js
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
-### Backend
+### 🌐 Web Development
 
-* Java
-* Spring Boot
-* Python
-* Django
-* Node.js
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-### Database
+### 🗄️ Database
 
-* MySQL
-* MongoDB
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-007396?style=for-the-badge\&logo=java\&logoColor=white)
 
-### Tools & Platforms
+### 🔧 Tools
 
-* Git
-* GitHub
-* REST APIs
-* AWS
-* Google Cloud Platform (GCP)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge\&logo=gnubash\&logoColor=white)
 
 ---
 
-## ✨ Features
+# ⭐ Featured Projects
 
-* Premium Black Glassmorphism UI
-* Fully Responsive Design
-* Smooth Scroll Navigation
-* Typing Animation
-* Interactive Hover Effects
-* Download Resume Button
-* View Resume Button
-* Skills Showcase
-* Project Cards with Tech Stack
-* Education Timeline
-* Certifications Section
-* Contact Section
-* Mobile Friendly Layout
+## 🌾 AgriSetu — AI-Powered Smart Crop Advisory Platform
 
----
+**Tech:** HTML · CSS · JavaScript · Firebase · Leaflet.js
 
-## 📂 Projects
+A multilingual agricultural advisory platform developed for the **Smart India Hackathon**, focused on helping farmers make better decisions through technology.
 
-### 🌱 AgriSetu
+### Key Features
 
-**Team Leader – Smart India Hackathon 2025**
-
-Developed a predictive crop advisory system utilizing AI for multilingual support and ResNet/XGBoost for precision agriculture diagnostics. Designed a scalable microservices architecture on AWS/GCP to deliver real-time market and soil intelligence to marginal farmers. 
-
-**Tech Used**
-
-* Python
-* Django
-* ResNet
-* XGBoost
-* AWS
-* GCP
-* MySQL
-* REST APIs
+* 🌱 Crop recommendation system
+* 🍃 Disease detection module
+* 🌦️ Weather insights
+* 🧪 Soil analysis
+* 📍 Location-based buyer discovery
+* 🔥 Firebase Authentication
+* ☁️ Firestore cloud database
+* 🗺️ Interactive Leaflet.js maps
+* 🌐 Multilingual interface — English, Hindi & Telugu
+* 📱 Responsive user interface
 
 ---
 
-### 🌍 AQI Tester
+## 🌍 AQI Tester — Real-Time Air Quality Monitoring System
 
-Built a real-time Air Quality Index web application using HTML, CSS, JavaScript, and Python/Django, integrating live API data with a database for historical trend analysis. Designed user-friendly dashboards and managed modular code with Git/GitHub for maintainability and scalability. 
+**Tech:** Python · Django · SQL · Chart.js · Leaflet.js
 
-**Tech Used**
+A real-time air-quality monitoring platform designed to visualize environmental pollution data and provide meaningful insights.
 
-* HTML
-* CSS
-* JavaScript
-* Python
-* Django
-* MySQL
-* APIs
-* GitHub
+### Key Features
 
----
-
-## 🎓 Education
-
-### Bachelor of Technology in Information Technology
-
-**Andhra Loyola Institute of Engineering and Technology (ALIET)**
-Vijayawada, Andhra Pradesh
-**CGPA:** 76.5% (Current)
-**Duration:** Sep 2023 – Sep 2027 (Present) 
-
-### Intermediate
-
-**Sri Chaitanya Jr College**
-Vijayawada, Andhra Pradesh
-**CGPA:** 64%
-**Duration:** Jun 2020 – Apr 2022 
-
-### SSC
-
-**St. John's E.M High School**
-Vijayawada, Andhra Pradesh
-**CGPA:** 100%
-**Duration:** Jun 2009 – Mar 2020 
+* 📊 Real-time AQI monitoring
+* 🌫️ PM2.5 & PM10 monitoring
+* 🧪 CO, O₃ & NO₂ tracking
+* 🗺️ Interactive pollution maps
+* 📈 Historical pollution trend visualization
+* 🏙️ City-wise AQI comparison
+* 🗄️ SQL-based historical data storage
+* 🔌 External environmental API integration
+* 💡 Dynamic AQI indicators and pollution insights
 
 ---
 
-## 🏆 Certifications
+# 💼 Experience
 
-* Deloitte Data Analytics Job Simulation (Forage) – Certificate of Completion (2026) 
-* OCI AI Foundations Associate (Oracle Cloud Infrastructure) – 2025 
-* Oracle Java Foundations Certificate – Oracle 
+### 🔐 Cyber Security Intern
+
+**Datavalley India Pvt. Ltd. × APSCHE Program**
+
+During my 8-week internship, I worked on foundational cybersecurity concepts including:
+
+* Network Security
+* Threat Assessment
+* Authentication
+* Cryptography
+* Secure Software Design
+* Risk Mitigation
+
+The internship included practical assignments focused on applying cybersecurity concepts to real-world scenarios.
 
 ---
 
-## 🌍 Languages
+# 🏆 Certifications
 
-* English
-* Hindi
-* Telugu
-* Urdu 
+* 🟠 **Oracle Certified Java Foundations**
+* ☁️ **Oracle Cloud Infrastructure (OCI) AI Foundations**
+* 📊 **Deloitte Australia — Data Analytics Virtual Experience | Forage**
 
 ---
 
-## 📁 Project Structure
+# 📚 Currently Learning
 
-```bash
-portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-└── assets/
-    ├── profile.jpg
-    ├── resume.pdf
-    └── favicon.ico
+```text
+Java
+ ├── Object-Oriented Programming
+ ├── Data Structures & Algorithms
+ ├── Problem Solving
+ └── Backend Development
+
+Python
+ ├── Programming Fundamentals
+ ├── Problem Solving
+ └── Backend Development
+
+SQL
+ ├── Database Fundamentals
+ ├── Queries
+ └── JDBC
+
+Web Development
+ ├── HTML
+ ├── CSS
+ └── JavaScript
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🎯 2026 Goals
 
-### Clone Repository
-
-```bash
-git clone https://github.com/AbuRahmannn/rahman-portfolio.git
-```
-
-### Navigate to Project
-
-```bash
-cd rahman-portfolio
-```
-
-### Run Locally
-
-Simply open:
-
-```bash
-index.html
-```
-
-or use VS Code Live Server.
+* [ ] Strengthen Data Structures & Algorithms
+* [ ] Become proficient in Java backend development
+* [ ] Build production-ready projects
+* [ ] Improve problem-solving skills
+* [ ] Contribute to open-source projects
+* [ ] Gain software development internship experience
+* [ ] Prepare for software engineering placements
 
 ---
 
-## 📬 Contact
+# 📊 GitHub Activity
 
-📍 Vijayawada, Andhra Pradesh, India
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=github_dark&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=github_dark&hide_border=true" height="170"/>
+</p>
 
-📧 [ima.rahman06@gmail.com](mailto:ima.rahman06@gmail.com)
-
-💼 LinkedIn: [https://www.linkedin.com/in/rahmanabd/](https://www.linkedin.com/in/rahmanabd/)
-
-🐙 GitHub: [https://github.com/AbuRahmannn](https://github.com/AbuRahmannn)
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a **Star ⭐** on GitHub.
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AbuRahmannn&theme=github-dark-blue&hide_border=true" />
+</p>
 
 ---
 
-### Made with ❤️ by Rahman Abdul
+# 🤝 Let's Connect
 
-**Aspiring Full Stack Developer | AI Enthusiast | Smart India Hackathon Team Leader**
+<p align="left">
+
+<a href="https://github.com/AbuRahmannn">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</p>
+
+📧 **Email:** [23HP1A1249@gmail.com](mailto:23HP1A1249@gmail.com)
+
+---
+
+### 💡 "Build. Break. Learn. Improve. Repeat."
+
+<p align="center">
+  <i>Thanks for visiting my profile! ⭐</i>
+</p>
