@@ -3,13 +3,9 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F7FA,50:D6E4FF,100:E8E4FF&height=160&section=header&text=Abdul%20Rahman&fontSize=42&fontColor=4A4A68&fontAlignY=45&animation=fadeIn&desc=Information%20Technology%20Undergraduate&descAlignY=68&descSize=17&descColor=6B6B8D" />
 
 <p>
-<img src="https://img.shields.io/badge/Java-EAF2FF?style=flat-square&logo=openjdk&logoColor=5C6BC0&labelColor=EAF2FF&color=EAF2FF" height="26" />
-<img src="https://img.shields.io/badge/Python-EAF7EF?style=flat-square&logo=python&logoColor=4CAF93&labelColor=EAF7EF&color=EAF7EF" height="26" />
-<img src="https://img.shields.io/badge/SQL-FFF3EA?style=flat-square&logo=mysql&logoColor=E0A458&labelColor=FFF3EA&color=FFF3EA" height="26" />
-<img src="https://img.shields.io/badge/Web%20Dev-F3EAFF?style=flat-square&logo=html5&logoColor=9575CD&labelColor=F3EAFF&color=F3EAFF" height="26" />
-</p>
-
-<p>
+<a href="https://github.com/AbuRahmannn">
+<img src="https://img.shields.io/badge/GitHub-EAEAEA?style=flat-square&logo=github&logoColor=444444&labelColor=EAEAEA&color=EAEAEA" height="28" />
+</a>
 <a href="https://www.linkedin.com/in/rahmanabd">
 <img src="https://img.shields.io/badge/LinkedIn-EAF2FF?style=flat-square&logo=linkedin&logoColor=5C7CFA&labelColor=EAF2FF&color=EAF2FF" height="28" />
 </a>
