@@ -49,9 +49,9 @@ Information Technology undergraduate at Andhra Loyola Institute of Engineering a
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
-**🌾 AgriSetu**
+**🌾 AgriSetu** <sub>· Major Project</sub>
 AI-powered multilingual crop advisory platform built for Smart India Hackathon — crop recommendations, disease detection, weather insights, and geospatial farmer/buyer discovery, with Firebase Auth and Firestore for real-time data.
 
 <sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Firebase</code> <code>Leaflet.js</code></sub>
@@ -59,36 +59,16 @@ AI-powered multilingual crop advisory platform built for Smart India Hackathon �
 <a href="https://github.com/AbuRahmannn/AgriSetu"><img src="https://img.shields.io/badge/View%20Repo-EAF2FF?style=flat-square&logo=github&logoColor=5C6BC0&labelColor=EAF2FF&color=EAF2FF" /></a>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td width="100%" valign="top">
 
-**🌫️ AQI Tester**
+**🌫️ AQI Tester** <sub>· Minor Project</sub>
 Real-time air quality monitoring app built with Django — tracks PM2.5, PM10, CO, O₃, and NO₂ with city-wise comparison, historical trend charts, and geospatial pollution mapping.
 
 <sub><code>Python</code> <code>Django</code> <code>SQL</code> <code>Chart.js</code> <code>Leaflet.js</code></sub>
 
 <a href="https://github.com/AbuRahmannn/AQI-Tester"><img src="https://img.shields.io/badge/View%20Repo-EAF7EF?style=flat-square&logo=github&logoColor=4CAF93&labelColor=EAF7EF&color=EAF7EF" /></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🧮 DSA in Python**
-Data structures and algorithms implemented from scratch — arrays, strings, linked lists, stacks/queues, trees, and graphs.
-
-<sub><code>Python</code></sub>
-
-<a href="https://github.com/AbuRahmannn/DSA-IN-PYTHON"><img src="https://img.shields.io/badge/View%20Repo-FFF3EA?style=flat-square&logo=github&logoColor=E0A458&labelColor=FFF3EA&color=FFF3EA" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-**🔳 QR Generator**
-Lightweight browser-based QR code generator.
-
-<sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code></sub>
-
-<a href="https://github.com/AbuRahmannn/QR-Generator-"><img src="https://img.shields.io/badge/View%20Repo-F3EAFF?style=flat-square&logo=github&logoColor=9575CD&labelColor=F3EAFF&color=F3EAFF" /></a>
 
 </td>
 </tr>
