@@ -1,75 +1,117 @@
 <div align="center">
 
-<h1>Abdul Rahman</h1>
-<p>Information Technology Undergraduate · Java · Python · SQL · Web Development</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E0F7FA,50:D6E4FF,100:E8E4FF&height=160&section=header&text=Abdul%20Rahman&fontSize=42&fontColor=4A4A68&fontAlignY=45&animation=fadeIn&desc=Information%20Technology%20Undergraduate&descAlignY=68&descSize=17&descColor=6B6B8D" />
 
 <p>
-<a href="https://www.linkedin.com/in/rahmanabd"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:23HP1A1249@gmail.com"><img src="https://img.shields.io/badge/Email-23HP1A1249%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://x.com/aburahmannn"><img src="https://img.shields.io/badge/X-@aburahmannn-000000?style=flat-square&logo=x&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/Java-EAF2FF?style=flat-square&logo=openjdk&logoColor=5C6BC0&labelColor=EAF2FF&color=EAF2FF" height="26" />
+<img src="https://img.shields.io/badge/Python-EAF7EF?style=flat-square&logo=python&logoColor=4CAF93&labelColor=EAF7EF&color=EAF7EF" height="26" />
+<img src="https://img.shields.io/badge/SQL-FFF3EA?style=flat-square&logo=mysql&logoColor=E0A458&labelColor=FFF3EA&color=FFF3EA" height="26" />
+<img src="https://img.shields.io/badge/Web%20Dev-F3EAFF?style=flat-square&logo=html5&logoColor=9575CD&labelColor=F3EAFF&color=F3EAFF" height="26" />
 </p>
 
-</div>
+<p>
+<a href="https://www.linkedin.com/in/rahmanabd">
+<img src="https://img.shields.io/badge/LinkedIn-EAF2FF?style=flat-square&logo=linkedin&logoColor=5C7CFA&labelColor=EAF2FF&color=EAF2FF" height="28" />
+</a>
+<a href="mailto:23HP1A1249@gmail.com">
+<img src="https://img.shields.io/badge/Email-FFEAF0?style=flat-square&logo=gmail&logoColor=E0577C&labelColor=FFEAF0&color=FFEAF0" height="28" />
+</a>
+<a href="https://x.com/aburahmannn">
+<img src="https://img.shields.io/badge/X-EDEAFF?style=flat-square&logo=x&logoColor=6B6B8D&labelColor=EDEAFF&color=EDEAFF" height="28" />
+</a>
+</p>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:E0F7FA,50:D6E4FF,100:E8E4FF&height=3" />
+
+</div>
 <br>
 
-## About
+## 🫧 About
 
 Information Technology undergraduate at Andhra Loyola Institute of Engineering and Technology, with a working foundation in Data Structures and Algorithms, OOP, DBMS, Operating Systems, and Computer Networks. Completed an 8-week Cyber Security internship under APSCHE and Datavalley India Pvt. Ltd. Focused on building practical, scalable software rather than staying purely theoretical.
 
-## Skills
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:E8E4FF,50:D6E4FF,100:E0F7FA&height=2" />
 
-| | |
-|---|---|
-| **Languages** | Java, Python |
-| **Databases** | MySQL, SQL, JDBC |
-| **Web** | HTML, CSS, JavaScript |
-| **Tools** | Git, GitHub, Bash |
+## 🧊 Skills
 
-## Projects
+<table align="center">
+<tr>
+<td align="center" width="25%">🧠<br><b>Languages</b><br><sub>Java · Python</sub></td>
+<td align="center" width="25%">🗄️<br><b>Databases</b><br><sub>MySQL · SQL · JDBC</sub></td>
+<td align="center" width="25%">🌐<br><b>Web</b><br><sub>HTML · CSS · JavaScript</sub></td>
+<td align="center" width="25%">🛠️<br><b>Tools</b><br><sub>Git · GitHub · Bash</sub></td>
+</tr>
+</table>
 
-**[AgriSetu](https://github.com/AbuRahmannn/AgriSetu)** — AI-powered multilingual crop advisory platform built for Smart India Hackathon. Crop recommendations, disease detection, weather insights, and geospatial farmer/buyer discovery, with Firebase Auth and Firestore for real-time data.
-`HTML` `CSS` `JavaScript` `Firebase` `Leaflet.js`
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:E0F7FA,50:D6E4FF,100:E8E4FF&height=2" />
 
-**[AQI Tester](https://github.com/AbuRahmannn/AQI-Tester)** — Real-time air quality monitoring app built with Django. Tracks PM2.5, PM10, CO, O₃, and NO₂ with city-wise comparison, historical trend charts, and geospatial pollution mapping.
-`Python` `Django` `SQL` `Chart.js` `Leaflet.js`
+## ☁️ Projects
 
-**[DSA in Python](https://github.com/AbuRahmannn/DSA-IN-PYTHON)** — Data structures and algorithms implemented from scratch: arrays, strings, linked lists, stacks/queues, trees, and graphs.
-`Python`
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
-**[QR Generator](https://github.com/AbuRahmannn/QR-Generator-)** — Lightweight browser-based QR code generator.
-`HTML` `CSS` `JavaScript`
+**🌾 AgriSetu**
+AI-powered multilingual crop advisory platform built for Smart India Hackathon — crop recommendations, disease detection, weather insights, and geospatial farmer/buyer discovery, with Firebase Auth and Firestore for real-time data.
 
-## Experience
+<sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Firebase</code> <code>Leaflet.js</code></sub>
 
-**Cyber Security Intern** — Datavalley India Pvt. Ltd. × APSCHE Program · *May – Jun 2026*
+<a href="https://github.com/AbuRahmannn/AgriSetu"><img src="https://img.shields.io/badge/View%20Repo-EAF2FF?style=flat-square&logo=github&logoColor=5C6BC0&labelColor=EAF2FF&color=EAF2FF" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+**🌫️ AQI Tester**
+Real-time air quality monitoring app built with Django — tracks PM2.5, PM10, CO, O₃, and NO₂ with city-wise comparison, historical trend charts, and geospatial pollution mapping.
+
+<sub><code>Python</code> <code>Django</code> <code>SQL</code> <code>Chart.js</code> <code>Leaflet.js</code></sub>
+
+<a href="https://github.com/AbuRahmannn/AQI-Tester"><img src="https://img.shields.io/badge/View%20Repo-EAF7EF?style=flat-square&logo=github&logoColor=4CAF93&labelColor=EAF7EF&color=EAF7EF" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🧮 DSA in Python**
+Data structures and algorithms implemented from scratch — arrays, strings, linked lists, stacks/queues, trees, and graphs.
+
+<sub><code>Python</code></sub>
+
+<a href="https://github.com/AbuRahmannn/DSA-IN-PYTHON"><img src="https://img.shields.io/badge/View%20Repo-FFF3EA?style=flat-square&logo=github&logoColor=E0A458&labelColor=FFF3EA&color=FFF3EA" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+**🔳 QR Generator**
+Lightweight browser-based QR code generator.
+
+<sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code></sub>
+
+<a href="https://github.com/AbuRahmannn/QR-Generator-"><img src="https://img.shields.io/badge/View%20Repo-F3EAFF?style=flat-square&logo=github&logoColor=9575CD&labelColor=F3EAFF&color=F3EAFF" /></a>
+
+</td>
+</tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:E8E4FF,50:D6E4FF,100:E0F7FA&height=2" />
+
+## 🔐 Experience
+
+**Cyber Security Intern** — Datavalley India Pvt. Ltd. × APSCHE Program
+<sub>*May – Jun 2026*</sub>
+
 Network security, threat assessment, authentication, and cryptography, applied through hands-on assignments in secure software design and risk mitigation.
 
-## Certifications
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:E0F7FA,50:D6E4FF,100:E8E4FF&height=2" />
 
-<table>
+## 🏅 Certifications
+
+<table align="center">
 <tr>
-<td align="center" width="33%">
-
-**Oracle Certified<br>Java Foundations**
-
-[![View Credential](https://img.shields.io/badge/View-Credential-F80000?style=flat-square&logo=oracle&logoColor=white)](PASTE_JAVA_CERT_LINK_HERE)
-
-</td>
-<td align="center" width="33%">
-
-**OCI AI Foundations<br>Certification**
-
-[![View Credential](https://img.shields.io/badge/View-Credential-F80000?style=flat-square&logo=oracle&logoColor=white)](PASTE_OCI_CERT_LINK_HERE)
-
-</td>
-<td align="center" width="33%">
-
-**Deloitte Australia<br>Data Analytics (Forage)**
-
-[![View Credential](https://img.shields.io/badge/View-Credential-86BC25?style=flat-square&logo=deloitte&logoColor=white)](PASTE_FORAGE_CERT_LINK_HERE)
-
-</td>
+<td align="center" width="33%">🥇<br><b>Oracle Certified<br>Java Foundations</b></td>
+<td align="center" width="33%">☁️<br><b>OCI AI Foundations<br>Certification</b></td>
+<td align="center" width="33%">📊<br><b>Deloitte Australia<br>Data Analytics (Forage)</b></td>
 </tr>
 </table>
 
@@ -77,19 +119,8 @@ Network security, threat assessment, authentication, and cryptography, applied t
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E8E4FF,50:D6E4FF,100:E0F7FA&height=100&section=footer" />
 
-</div>
-
-<br>
-
-<div align="center">
 <sub>23HP1A1249@gmail.com · Vijayawada, AP, India</sub>
+
 </div>
