@@ -47,9 +47,31 @@ Network security, threat assessment, authentication, and cryptography, applied t
 
 ## Certifications
 
-- Oracle Certified Java Foundations
-- Oracle Cloud Infrastructure (OCI) AI Foundations
-- Deloitte Australia — Data Analytics Virtual Experience (Forage)
+<table>
+<tr>
+<td align="center" width="33%">
+
+**Oracle Certified<br>Java Foundations**
+
+[![View Credential](https://img.shields.io/badge/View-Credential-F80000?style=flat-square&logo=oracle&logoColor=white)](PASTE_JAVA_CERT_LINK_HERE)
+
+</td>
+<td align="center" width="33%">
+
+**OCI AI Foundations<br>Certification**
+
+[![View Credential](https://img.shields.io/badge/View-Credential-F80000?style=flat-square&logo=oracle&logoColor=white)](PASTE_OCI_CERT_LINK_HERE)
+
+</td>
+<td align="center" width="33%">
+
+**Deloitte Australia<br>Data Analytics (Forage)**
+
+[![View Credential](https://img.shields.io/badge/View-Credential-86BC25?style=flat-square&logo=deloitte&logoColor=white)](PASTE_FORAGE_CERT_LINK_HERE)
+
+</td>
+</tr>
+</table>
 
 <br>
 
