@@ -19,14 +19,9 @@
       theme: {
         extend: {
           colors: {
-            apple: {
-              blue: '#0071e3',
-              blueHover: '#0077ed',
-              bgLight: '#f5f5f7',
-              bgDark: '#000000',
-              cardDark: '#161617',
-              borderLight: '#e5e5ea',
-              borderDark: '#2c2c2e'
+            slate: {
+              850: '#151e2e',
+              950: '#090d16',
             }
           }
         }
@@ -34,85 +29,85 @@
     }
   </script>
 </head>
-<body class="min-h-screen bg-[#f5f5f7] dark:bg-black text-[#1d1d1f] dark:text-[#f5f5f7] font-sans antialiased selection:bg-[#0071e3] selection:text-white transition-colors duration-300">
+<body class="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 font-sans antialiased selection:bg-sky-500 selection:text-white transition-colors duration-300">
 
-  <!-- Fixed Navigation Header (Apple Glassmorphism) -->
-  <header class="fixed top-0 left-0 right-0 z-50 bg-white/85 dark:bg-black/85 backdrop-blur-xl border-b border-[#e5e5ea] dark:border-[#2c2c2e] no-print transition-colors">
+  <!-- Fixed Navigation Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/85 dark:bg-slate-950/85 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800/80 no-print transition-colors">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       
       <!-- Brand Logo -->
-      <a href="#" class="flex items-center gap-1.5 font-mono font-bold text-sm tracking-tight text-[#1d1d1f] dark:text-[#f5f5f7] hover:text-[#0071e3] dark:hover:text-[#38bdf8] transition-colors shrink-0">
-        <span class="text-[#0071e3]">&lt;</span><span class="bg-gradient-to-r from-[#0071e3] to-indigo-600 dark:from-[#38bdf8] dark:to-indigo-400 text-transparent bg-clip-text font-extrabold">AbdulRahman</span> <span class="text-[#0071e3]">/&gt;</span>
+      <a href="#" class="flex items-center gap-1.5 font-mono font-bold text-sm tracking-tight text-slate-900 dark:text-slate-100 hover:text-sky-600 dark:hover:text-sky-400 transition-colors shrink-0">
+        <span class="text-sky-600 dark:text-sky-400">&lt;</span><span class="bg-gradient-to-r from-sky-600 to-indigo-600 dark:from-sky-400 dark:to-indigo-400 text-transparent bg-clip-text font-extrabold">AbdulRahman</span> <span class="text-sky-600 dark:text-sky-400">/&gt;</span>
       </a>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-[#86868b] dark:text-slate-400">
-        <a href="#about" class="hover:text-[#1d1d1f] dark:hover:text-white transition-colors">About</a>
-        <a href="#projects" class="hover:text-[#1d1d1f] dark:hover:text-white transition-colors">Projects</a>
-        <a href="#skills" class="hover:text-[#1d1d1f] dark:hover:text-white transition-colors">Skills</a>
-        <a href="#experience" class="hover:text-[#1d1d1f] dark:hover:text-white transition-colors">Experience</a>
-        <a href="#education" class="hover:text-[#1d1d1f] dark:hover:text-white transition-colors">Education</a>
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600 dark:text-slate-400">
+        <a href="#about" class="hover:text-slate-900 dark:hover:text-white transition-colors">About</a>
+        <a href="#projects" class="hover:text-slate-900 dark:hover:text-white transition-colors">Projects</a>
+        <a href="#skills" class="hover:text-slate-900 dark:hover:text-white transition-colors">Skills</a>
+        <a href="#experience" class="hover:text-slate-900 dark:hover:text-white transition-colors">Experience</a>
+        <a href="#education" class="hover:text-slate-900 dark:hover:text-white transition-colors">Education</a>
       </nav>
 
       <!-- Header Action Buttons -->
-      <div class="flex items-center gap-2 sm:gap-3">
+      <div class="flex items-center gap-2 sm:gap-2.5">
         <!-- Theme Toggle Button -->
-        <button id="theme-toggle" class="p-2.5 rounded-full bg-white dark:bg-[#1c1c1e] border-2 border-[#e5e5ea] dark:border-[#2c2c2e] text-[#1d1d1f] dark:text-[#f5f5f7] hover:border-[#0071e3] transition-all shadow-sm" title="Toggle Light/Dark Theme">
+        <button id="theme-toggle" class="p-2 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-sky-600 dark:hover:text-slate-100 transition-colors" title="Toggle Light/Dark Theme">
           <i id="theme-icon" data-lucide="sun" class="w-4 h-4"></i>
         </button>
 
-        <!-- GitHub Header Link (Desktop) -->
-        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary hidden lg:inline-flex items-center gap-1.5 text-xs font-medium" title="GitHub: github.com/AbuRahmannn">
-          <i data-lucide="github" class="w-3.5 h-3.5 text-[#0071e3]"></i> GitHub
+        <!-- GitHub Header Link -->
+        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary hidden lg:inline-flex items-center gap-1.5 text-xs font-medium" title="GitHub: github.com/AbuRahmannn">
+          <i data-lucide="github" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> GitHub
         </a>
 
-        <!-- LinkedIn Header Link (Desktop) -->
-        <a href="https://linkedin.com" target="_blank" rel="noopener" class="apple-btn-secondary hidden lg:inline-flex items-center gap-1.5 text-xs font-medium" title="LinkedIn Profile">
-          <i data-lucide="linkedin" class="w-3.5 h-3.5 text-[#0071e3]"></i> LinkedIn
+        <!-- LinkedIn Header Link -->
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary hidden lg:inline-flex items-center gap-1.5 text-xs font-medium" title="LinkedIn Profile">
+          <i data-lucide="linkedin" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> LinkedIn
         </a>
 
-        <!-- Primary Resume PDF Download Pill Button (Desktop/Tablet) -->
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-primary hidden sm:inline-flex items-center gap-1.5 text-xs" title="Download PDF Resume">
+        <!-- Primary Resume PDF Download Button -->
+        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary hidden sm:inline-flex items-center gap-1.5 text-xs" title="Download PDF Resume">
           <i data-lucide="download" class="w-3.5 h-3.5"></i> Download Resume
         </a>
 
         <!-- Mobile Menu Button -->
-        <button id="mobile-menu-btn" class="md:hidden p-2.5 rounded-full bg-white dark:bg-[#1c1c1e] border-2 border-[#e5e5ea] dark:border-[#2c2c2e] text-[#1d1d1f] dark:text-[#f5f5f7]">
+        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100">
           <i data-lucide="menu" class="w-4 h-4"></i>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Nav Dropdown (Mobile Optimized) -->
-    <div id="mobile-menu" class="md:hidden px-4 text-sm text-[#1d1d1f] dark:text-slate-300 border-b border-[#e5e5ea] dark:border-[#2c2c2e] bg-white/95 dark:bg-black/95 backdrop-blur-xl">
-      <a href="#about" class="block py-3 hover:text-[#0071e3] font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
-        <i data-lucide="user" class="w-4 h-4 inline mr-2 text-[#0071e3]"></i> About
+    <!-- Mobile Nav Dropdown -->
+    <div id="mobile-menu" class="md:hidden px-4 text-sm text-slate-600 dark:text-slate-300 border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-950/95 backdrop-blur-md">
+      <a href="#about" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
+        <i data-lucide="user" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> About
       </a>
-      <a href="#projects" class="block py-3 hover:text-[#0071e3] font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
-        <i data-lucide="folder-git-2" class="w-4 h-4 inline mr-2 text-[#0071e3]"></i> Projects
+      <a href="#projects" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
+        <i data-lucide="folder-git-2" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> Projects
       </a>
-      <a href="#skills" class="block py-3 hover:text-[#0071e3] font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
-        <i data-lucide="code-2" class="w-4 h-4 inline mr-2 text-[#0071e3]"></i> Skills
+      <a href="#skills" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
+        <i data-lucide="code-2" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> Skills
       </a>
-      <a href="#experience" class="block py-3 hover:text-[#0071e3] font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
-        <i data-lucide="briefcase" class="w-4 h-4 inline mr-2 text-[#0071e3]"></i> Experience
+      <a href="#experience" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors border-b border-slate-100 dark:border-slate-800">
+        <i data-lucide="briefcase" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> Experience
       </a>
-      <a href="#education" class="block py-3 hover:text-[#0071e3] font-medium transition-colors">
-        <i data-lucide="graduation-cap" class="w-4 h-4 inline mr-2 text-[#0071e3]"></i> Education
+      <a href="#education" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors">
+        <i data-lucide="graduation-cap" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> Education
       </a>
       
-      <div class="pt-3 pb-4 flex flex-col gap-2.5 border-t border-[#e5e5ea] dark:border-[#2c2c2e]">
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-primary w-full py-3 text-xs font-semibold flex items-center justify-center gap-2">
+      <div class="pt-3 pb-4 flex flex-col gap-2.5 border-t border-slate-200 dark:border-slate-800">
+        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary w-full py-3 text-xs font-semibold flex items-center justify-center gap-2">
           <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener" class="apple-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
-          <i data-lucide="linkedin" class="w-4 h-4 text-[#0071e3]"></i> LinkedIn Profile
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
+          <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
         </a>
-        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
-          <i data-lucide="github" class="w-4 h-4 text-[#0071e3]"></i> GitHub Profile
+        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
+          <i data-lucide="github" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> GitHub Profile
         </a>
-        <button onclick="openResumeModal()" class="apple-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
-          <i data-lucide="file-text" class="w-4 h-4 text-[#0071e3]"></i> Preview Resume Modal
+        <button onclick="openResumeModal()" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
+          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Preview Resume Modal
         </button>
       </div>
     </div>
@@ -129,67 +124,67 @@
         <div class="space-y-5 sm:space-y-6 flex-1">
           
           <!-- Recruiter Availability Badge -->
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-500/10 border-2 border-emerald-200 dark:border-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-mono font-medium shadow-sm">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-mono font-medium shadow-sm">
             <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span> Open for Software Developer & Python/DSA Roles (B.Tech IT '27)
           </div>
 
           <!-- Name & Primary Title -->
           <div>
-            <h1 class="text-3xl sm:text-5xl font-extrabold text-[#1d1d1f] dark:text-white tracking-tight leading-tight">
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-tight">
               Abdul Rahman
             </h1>
-            <p class="text-[#0071e3] dark:text-[#38bdf8] text-sm sm:text-lg font-bold mt-1 sm:mt-1.5">
+            <p class="text-sky-600 dark:text-sky-400 text-sm sm:text-lg font-bold mt-1.5">
               Software Developer & B.Tech Information Technology Undergrad
             </p>
           </div>
 
           <!-- Comprehensive Bio Paragraph -->
-          <p class="text-[#515154] dark:text-slate-300 text-xs sm:text-base leading-relaxed">
-            I am a B.Tech Information Technology student at Andhra Loyola Institute of Engineering and Technology, Vijayawada (<span class="font-bold text-[#1d1d1f] dark:text-white">CGPA: 7.78/10</span>). I specialize in <span class="font-semibold text-[#1d1d1f] dark:text-white">Python, Data Structures & Algorithms (DSA), and software development</span>. I build practical, scalable applications using <span class="font-semibold text-[#1d1d1f] dark:text-white">Django, SQL, MySQL, Firebase, and REST API integration</span>, backed by strong CS fundamentals in <span class="font-semibold text-[#1d1d1f] dark:text-white">OOP, DBMS, Operating Systems, Computer Networks, Network Security, and Cryptography</span>.
+          <p class="text-slate-600 dark:text-slate-300 text-xs sm:text-base leading-relaxed">
+            I am a B.Tech Information Technology student at Andhra Loyola Institute of Engineering and Technology, Vijayawada (<span class="font-bold text-slate-900 dark:text-slate-100">CGPA: 7.78/10</span>). I specialize in <span class="font-semibold text-slate-900 dark:text-slate-100">Python, Data Structures & Algorithms (DSA), and software development</span>. I build practical, scalable applications using <span class="font-semibold text-slate-900 dark:text-slate-100">Django, SQL, MySQL, Firebase, and REST API integration</span>, backed by strong CS fundamentals in <span class="font-semibold text-slate-900 dark:text-slate-100">OOP, DBMS, Operating Systems, Computer Networks, Network Security, and Cryptography</span>.
           </p>
 
-          <!-- Current Focus Box (Apple Style Card) -->
-          <div class="apple-card p-4 sm:p-5 text-xs sm:text-sm leading-relaxed flex items-start gap-3 sm:gap-3.5">
-            <span class="p-2 rounded-xl bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] shrink-0 mt-0.5 border border-sky-200 dark:border-sky-800">
+          <!-- Current Focus Box -->
+          <div class="dev-card p-4 sm:p-5 text-xs sm:text-sm leading-relaxed flex items-start gap-3 sm:gap-3.5">
+            <span class="p-2 rounded-xl bg-sky-50 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5 border border-sky-200 dark:border-sky-800">
               <i data-lucide="zap" class="w-4 h-4"></i>
             </span>
             <div>
-              <span class="font-bold text-[#1d1d1f] dark:text-white">Currently:</span> Strengthening Python + DSA, building full-stack applications with Django, MySQL & Firebase, and preparing for software developer opportunities.
+              <span class="font-bold text-slate-900 dark:text-slate-100">Currently:</span> Strengthening Python + DSA, building full-stack applications with Django, MySQL & Firebase, and preparing for software developer opportunities.
             </div>
           </div>
 
-          <!-- Apple Style CTA Button Group (Mobile Responsive Layout) -->
+          <!-- CTA Button Group -->
           <div class="space-y-3 pt-1">
             <!-- Row 1: Primary Actions -->
             <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
               <!-- Primary Action: Direct Download Resume PDF -->
-              <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-primary inline-flex items-center justify-center gap-2 text-xs">
+              <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary inline-flex items-center justify-center gap-2 text-xs">
                 <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
               </a>
 
               <!-- Secondary Action: GitHub Profile -->
-              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
-                <i data-lucide="github" class="w-4 h-4 text-[#0071e3]"></i> github.com/AbuRahmannn
+              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
+                <i data-lucide="github" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> github.com/AbuRahmannn
               </a>
 
               <!-- Secondary Action: LinkedIn Profile Button -->
-              <a href="https://linkedin.com" target="_blank" rel="noopener" class="apple-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
-                <i data-lucide="linkedin" class="w-4 h-4 text-[#0071e3]"></i> LinkedIn Profile
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
+                <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
               </a>
 
               <!-- Secondary Action: Preview Resume Modal -->
-              <button onclick="openResumeModal()" class="apple-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
-                <i data-lucide="file-text" class="w-4 h-4 text-[#0071e3]"></i> Preview Resume
+              <button onclick="openResumeModal()" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
+                <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Preview Resume
               </button>
             </div>
 
             <!-- Row 2: Email Actions -->
             <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
-              <a href="mailto:23HP1A1249@gmail.com" class="apple-btn-secondary inline-flex items-center justify-center gap-2 text-xs break-all sm:break-normal">
-                <i data-lucide="mail" class="w-3.5 h-3.5 text-[#0071e3] shrink-0"></i> <span>Email: 23HP1A1249@gmail.com</span>
+              <a href="mailto:23HP1A1249@gmail.com" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs break-all sm:break-normal">
+                <i data-lucide="mail" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400 shrink-0"></i> <span>Email: 23HP1A1249@gmail.com</span>
               </a>
 
-              <button onclick="copyText('23HP1A1249@gmail.com', 'Email')" class="apple-btn-secondary inline-flex items-center justify-center gap-1.5 text-xs">
+              <button onclick="copyText('23HP1A1249@gmail.com', 'Email')" class="dev-btn-secondary inline-flex items-center justify-center gap-1.5 text-xs">
                 <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy Email
               </button>
             </div>
@@ -197,61 +192,61 @@
 
         </div>
 
-        <!-- Profile Headshot (Mobile Optimized Centered Avatar) -->
+        <!-- Profile Headshot Avatar -->
         <div class="shrink-0 flex justify-center md:justify-end relative">
-          <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-[#0071e3] to-indigo-500 opacity-20 blur-xl"></div>
+          <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-sky-500 to-indigo-500 opacity-20 blur-xl"></div>
           <img 
             src="assets/profile.jpg" 
             alt="Abdul Rahman" 
-            class="relative w-32 h-32 sm:w-48 sm:h-48 rounded-3xl object-cover border-4 border-white dark:border-[#2c2c2e] shadow-2xl"
+            class="relative w-32 h-32 sm:w-48 sm:h-48 rounded-2xl object-cover border-2 border-white dark:border-slate-800 shadow-xl"
           >
         </div>
 
       </div>
 
-      <!-- Recruiter Snapshot Metrics Grid (Mobile Responsive Stack) -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 mt-8 sm:mt-12 pt-6 sm:pt-8 border-t-2 border-[#e5e5ea] dark:border-[#2c2c2e]">
+      <!-- Recruiter Snapshot Metrics Grid (4 Metric Boxes Fully Covered & Richly Detailed) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-slate-200 dark:border-slate-800">
         
         <!-- Box 1: Target Role -->
-        <div class="apple-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
-          <div class="flex items-center gap-2 text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider">
+        <div class="dev-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
+          <div class="flex items-center gap-2 text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider">
             <i data-lucide="target" class="w-4 h-4"></i> Target Role
           </div>
-          <div class="text-xs sm:text-sm font-bold text-[#1d1d1f] dark:text-white">Software Developer / Python</div>
-          <p class="text-[11px] sm:text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+          <div class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">Software Developer / Python</div>
+          <p class="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
             Specializing in Data Structures, Algorithms, Django Web Applications & REST API Development.
           </p>
         </div>
 
         <!-- Box 2: Degree & Rank -->
-        <div class="apple-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
+        <div class="dev-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
           <div class="flex items-center gap-2 text-xs font-mono font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
             <i data-lucide="award" class="w-4 h-4"></i> Degree & Academic Rank
           </div>
           <div class="text-xs sm:text-sm font-bold text-emerald-600 dark:text-emerald-400">B.Tech IT • 7.78 / 10 CGPA</div>
-          <p class="text-[11px] sm:text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+          <p class="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
             Andhra Loyola Institute of Engineering & Technology (2023 – 2027 Graduating).
           </p>
         </div>
 
         <!-- Box 3: Core Stack -->
-        <div class="apple-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
-          <div class="flex items-center gap-2 text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider">
+        <div class="dev-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
+          <div class="flex items-center gap-2 text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider">
             <i data-lucide="code" class="w-4 h-4"></i> Core Tech Stack
           </div>
-          <div class="text-xs sm:text-sm font-bold text-[#1d1d1f] dark:text-white">Python, DSA, Django & SQL</div>
-          <p class="text-[11px] sm:text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+          <div class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">Python, DSA, Django & SQL</div>
+          <p class="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
             MySQL, Firebase Auth, Cloud Firestore, Leaflet.js, Chart.js & Git/GitHub.
           </p>
         </div>
 
         <!-- Box 4: Location & Mobility -->
-        <div class="apple-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
+        <div class="dev-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
           <div class="flex items-center gap-2 text-xs font-mono font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
             <i data-lucide="map-pin" class="w-4 h-4"></i> Location & Mobility
           </div>
-          <div class="text-xs sm:text-sm font-bold text-[#1d1d1f] dark:text-white">Vijayawada, AP (Relocate OK)</div>
-          <p class="text-[11px] sm:text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+          <div class="text-xs sm:text-sm font-bold text-slate-900 dark:text-white">Vijayawada, AP (Relocate OK)</div>
+          <p class="text-[11px] sm:text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
             Available for Onsite, Hybrid & Remote engineering roles across India & globally.
           </p>
         </div>
@@ -261,14 +256,14 @@
 
     <!-- Featured Projects Section -->
     <section id="projects" class="space-y-6">
-      <div class="border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] pb-4">
+      <div class="border-b border-slate-200 dark:border-slate-800 pb-4">
         <div class="flex items-center gap-3">
-          <div class="p-2 sm:p-2.5 rounded-2xl bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] border border-sky-200 dark:border-sky-800">
+          <div class="p-2 sm:p-2.5 rounded-xl bg-sky-100 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 border border-sky-200 dark:border-sky-800">
             <i data-lucide="folder-git-2" class="w-5 h-5"></i>
           </div>
           <div>
-            <h2 class="text-lg sm:text-xl font-bold text-[#1d1d1f] dark:text-white tracking-tight">Featured Technical Projects</h2>
-            <p class="text-xs text-[#86868b] mt-0.5">Real-world applications built with Python, Django, SQL & Cloud APIs</p>
+            <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white tracking-tight">Featured Technical Projects</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Real-world applications built with Python, Django, SQL & Cloud APIs</p>
           </div>
         </div>
       </div>
@@ -276,96 +271,96 @@
       <div class="grid md:grid-cols-2 gap-5 sm:gap-6">
         
         <!-- Project 1: AgriSetu -->
-        <div class="project-card apple-card p-5 sm:p-6 flex flex-col justify-between">
+        <div class="dev-card p-5 sm:p-6 flex flex-col justify-between">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center justify-between gap-2">
               <span class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-400 text-xs font-mono font-semibold border border-amber-200 dark:border-amber-500/20">
                 Smart India Hackathon
               </span>
-              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary inline-flex items-center gap-1.5 px-3 py-1 text-xs font-mono" title="View Source on GitHub">
-                <i data-lucide="github" class="w-3.5 h-3.5 text-[#0071e3]"></i> Code Source
+              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center gap-1.5 px-3 py-1 text-xs font-mono" title="View Source on GitHub">
+                <i data-lucide="github" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> Code Source
               </a>
             </div>
 
             <div>
-              <h3 class="text-base sm:text-lg font-bold text-[#1d1d1f] dark:text-white">
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
                 AgriSetu – AI-Powered Smart Crop Advisory Platform
               </h3>
-              <p class="text-xs sm:text-sm text-[#515154] dark:text-slate-300 mt-2 leading-relaxed">
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
                 Full-stack agri-advisory web platform providing crop recommendation algorithms, disease detection, live weather insights, and soil analysis for farmers.
               </p>
             </div>
 
-            <ul class="space-y-2 text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <ul class="space-y-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Implemented Firebase Auth & Cloud Firestore (NoSQL) for secure real-time session management and data synchronization.</span>
               </li>
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Built geospatial farmer-buyer proximity matching using interactive <strong>Leaflet.js</strong> maps and distance calculation logic.</span>
               </li>
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Supported multi-language localization in English, Hindi, and Telugu (i18n).</span>
               </li>
             </ul>
           </div>
 
-          <div class="mt-5 sm:mt-6 pt-4 border-t border-[#e5e5ea] dark:border-[#2c2c2e] flex flex-wrap gap-1.5">
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Python</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Firebase</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Firestore</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Leaflet.js</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">JavaScript</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">i18n</span>
+          <div class="mt-5 sm:mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1.5">
+            <span class="dev-tag">Python</span>
+            <span class="dev-tag">Firebase</span>
+            <span class="dev-tag">Firestore</span>
+            <span class="dev-tag">Leaflet.js</span>
+            <span class="dev-tag">JavaScript</span>
+            <span class="dev-tag">i18n</span>
           </div>
         </div>
 
         <!-- Project 2: AQI Tester -->
-        <div class="project-card apple-card p-5 sm:p-6 flex flex-col justify-between">
+        <div class="dev-card p-5 sm:p-6 flex flex-col justify-between">
           <div class="space-y-4">
             <div class="flex flex-wrap items-center justify-between gap-2">
-              <span class="px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-500/10 text-[#0071e3] dark:text-[#38bdf8] text-xs font-mono font-semibold border border-sky-200 dark:border-sky-500/20">
+              <span class="px-3 py-1 rounded-full bg-sky-50 dark:bg-sky-500/10 text-sky-600 dark:text-sky-400 text-xs font-mono font-semibold border border-sky-200 dark:border-sky-500/20">
                 Environmental Analytics
               </span>
-              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary inline-flex items-center gap-1.5 px-3 py-1 text-xs font-mono" title="View Source on GitHub">
-                <i data-lucide="github" class="w-3.5 h-3.5 text-[#0071e3]"></i> Code Source
+              <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center gap-1.5 px-3 py-1 text-xs font-mono" title="View Source on GitHub">
+                <i data-lucide="github" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> Code Source
               </a>
             </div>
 
             <div>
-              <h3 class="text-base sm:text-lg font-bold text-[#1d1d1f] dark:text-white">
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
                 AQI Tester – Real-Time Air Quality Monitoring System
               </h3>
-              <p class="text-xs sm:text-sm text-[#515154] dark:text-slate-300 mt-2 leading-relaxed">
+              <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
                 Django (Python) web application that collects, cleans, and analyzes live air quality metrics from external APIs for city-level safety comparisons.
               </p>
             </div>
 
-            <ul class="space-y-2 text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <ul class="space-y-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Processed pollutant metrics (PM2.5, PM10, CO, O3, NO2) using Python data parsing for multi-city comparisons.</span>
               </li>
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Designed interactive <strong>Chart.js</strong> analytics dashboards & relational SQL/MySQL storage.</span>
               </li>
               <li class="flex items-start gap-2">
-                <span class="text-[#0071e3] font-bold">•</span>
+                <span class="text-sky-600 dark:text-sky-400 font-bold">•</span>
                 <span>Integrated REST API endpoints and Leaflet.js for geospatial visualization across regions.</span>
               </li>
             </ul>
           </div>
 
-          <div class="mt-5 sm:mt-6 pt-4 border-t border-[#e5e5ea] dark:border-[#2c2c2e] flex flex-wrap gap-1.5">
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Python</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Django</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">SQL</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">MySQL</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Chart.js</span>
-            <span class="px-2.5 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">REST API</span>
+          <div class="mt-5 sm:mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap gap-1.5">
+            <span class="dev-tag">Python</span>
+            <span class="dev-tag">Django</span>
+            <span class="dev-tag">SQL</span>
+            <span class="dev-tag">MySQL</span>
+            <span class="dev-tag">Chart.js</span>
+            <span class="dev-tag">REST API</span>
           </div>
         </div>
 
@@ -374,78 +369,78 @@
 
     <!-- Technical Focus & Skills Section -->
     <section id="skills" class="space-y-6">
-      <div class="flex items-center gap-3 border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] pb-4">
-        <div class="p-2 sm:p-2.5 rounded-2xl bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] border border-sky-200 dark:border-sky-800">
+      <div class="flex items-center gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-sky-100 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 border border-sky-200 dark:border-sky-800">
           <i data-lucide="code-2" class="w-5 h-5"></i>
         </div>
         <div>
-          <h2 class="text-lg sm:text-xl font-bold text-[#1d1d1f] dark:text-white tracking-tight">Technical Skills & Competencies</h2>
-          <p class="text-xs text-[#86868b] mt-0.5">Core computer science fundamentals and development tools</p>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white tracking-tight">Technical Skills & Competencies</h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Core computer science fundamentals and development tools</p>
         </div>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-4 sm:gap-5">
         
-        <div class="apple-card p-4 sm:p-5 space-y-3.5">
-          <div class="text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider flex items-center gap-2">
+        <div class="dev-card p-4 sm:p-5 space-y-3.5">
+          <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="terminal" class="w-4 h-4"></i> Languages & Logic
           </div>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1.5 rounded-xl bg-sky-50 dark:bg-sky-500/10 text-[#0071e3] dark:text-[#38bdf8] border border-sky-200 dark:border-sky-500/20 text-xs font-mono font-semibold">Python (DSA Focus)</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Java</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">SQL</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">JavaScript</span>
+            <span class="dev-tag font-semibold text-sky-700 dark:text-sky-300 border-sky-300 dark:border-sky-600">Python (DSA Focus)</span>
+            <span class="dev-tag">Java</span>
+            <span class="dev-tag">SQL</span>
+            <span class="dev-tag">JavaScript</span>
           </div>
         </div>
 
-        <div class="apple-card p-4 sm:p-5 space-y-3.5">
-          <div class="text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider flex items-center gap-2">
+        <div class="dev-card p-4 sm:p-5 space-y-3.5">
+          <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="layers" class="w-4 h-4"></i> Web & Backend Frameworks
           </div>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1.5 rounded-xl bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-500/20 text-xs font-mono font-semibold">Django</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">RESTful APIs</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Chart.js</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Leaflet.js</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">HTML5 / CSS3</span>
+            <span class="dev-tag font-semibold text-emerald-700 dark:text-emerald-300 border-emerald-300 dark:border-emerald-600">Django</span>
+            <span class="dev-tag">RESTful APIs</span>
+            <span class="dev-tag">Chart.js</span>
+            <span class="dev-tag">Leaflet.js</span>
+            <span class="dev-tag">HTML5 / CSS3</span>
           </div>
         </div>
 
-        <div class="apple-card p-4 sm:p-5 space-y-3.5">
-          <div class="text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider flex items-center gap-2">
+        <div class="dev-card p-4 sm:p-5 space-y-3.5">
+          <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="database" class="w-4 h-4"></i> Databases & Cloud Storage
           </div>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1.5 rounded-xl bg-cyan-50 dark:bg-cyan-500/10 text-cyan-700 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-500/20 text-xs font-mono font-semibold">MySQL & SQL</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Firebase Auth</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Cloud Firestore</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">JDBC</span>
+            <span class="dev-tag font-semibold text-cyan-700 dark:text-cyan-300 border-cyan-300 dark:border-cyan-600">MySQL & SQL</span>
+            <span class="dev-tag">Firebase Auth</span>
+            <span class="dev-tag">Cloud Firestore</span>
+            <span class="dev-tag">JDBC</span>
           </div>
         </div>
 
-        <div class="apple-card p-4 sm:p-5 space-y-3.5">
-          <div class="text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider flex items-center gap-2">
+        <div class="dev-card p-4 sm:p-5 space-y-3.5">
+          <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="wrench" class="w-4 h-4"></i> Developer Tools
           </div>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Git & GitHub</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Linux / Bash</span>
-            <span class="px-3 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">VS Code</span>
+            <span class="dev-tag">Git & GitHub</span>
+            <span class="dev-tag">Linux / Bash</span>
+            <span class="dev-tag">VS Code</span>
           </div>
         </div>
 
-        <div class="apple-card p-4 sm:p-5 space-y-3.5 sm:col-span-2">
-          <div class="text-xs font-mono font-bold text-[#0071e3] dark:text-[#38bdf8] uppercase tracking-wider flex items-center gap-2">
+        <div class="dev-card p-4 sm:p-5 space-y-3.5 sm:col-span-2">
+          <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="cpu" class="w-4 h-4"></i> Core Computer Science Foundations
           </div>
           <div class="flex flex-wrap gap-2">
-            <span class="px-3.5 py-1.5 rounded-xl bg-indigo-50 dark:bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-500/20 text-xs font-mono font-bold">Data Structures & Algorithms</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Object-Oriented Programming (OOP)</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">DBMS</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Operating Systems</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-medium">Computer Networks</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-purple-50 dark:bg-purple-500/10 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/20 text-xs font-mono font-medium">Network Security</span>
-            <span class="px-3.5 py-1.5 rounded-xl bg-purple-50 dark:bg-purple-500/10 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/20 text-xs font-mono font-medium">Cryptography</span>
+            <span class="dev-tag font-bold text-indigo-700 dark:text-indigo-300 border-indigo-300 dark:border-indigo-600">Data Structures & Algorithms</span>
+            <span class="dev-tag">Object-Oriented Programming (OOP)</span>
+            <span class="dev-tag">DBMS</span>
+            <span class="dev-tag">Operating Systems</span>
+            <span class="dev-tag">Computer Networks</span>
+            <span class="dev-tag text-purple-700 dark:text-purple-300 border-purple-300 dark:border-purple-600">Network Security</span>
+            <span class="dev-tag text-purple-700 dark:text-purple-300 border-purple-300 dark:border-purple-600">Cryptography</span>
           </div>
         </div>
 
@@ -454,38 +449,38 @@
 
     <!-- Work Experience Section -->
     <section id="experience" class="space-y-6">
-      <div class="flex items-center gap-3 border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] pb-4">
-        <div class="p-2 sm:p-2.5 rounded-2xl bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] border border-sky-200 dark:border-sky-800">
+      <div class="flex items-center gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-sky-100 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 border border-sky-200 dark:border-sky-800">
           <i data-lucide="briefcase" class="w-5 h-5"></i>
         </div>
         <div>
-          <h2 class="text-lg sm:text-xl font-bold text-[#1d1d1f] dark:text-white tracking-tight">Work Experience</h2>
-          <p class="text-xs text-[#86868b] mt-0.5">Industry internships and practical security training</p>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white tracking-tight">Work Experience</h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Industry internships and practical security training</p>
         </div>
       </div>
 
-      <div class="apple-card p-5 sm:p-7 space-y-4">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] pb-3.5">
+      <div class="dev-card p-5 sm:p-7 space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-800 pb-3.5">
           <div>
-            <h3 class="text-base sm:text-lg font-bold text-[#1d1d1f] dark:text-white">Cyber Security Intern</h3>
-            <p class="text-xs text-[#0071e3] dark:text-[#38bdf8] font-mono font-semibold mt-0.5">Datavalley India Pvt. Ltd. & APSCHE Program</p>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">Cyber Security Intern</h3>
+            <p class="text-xs text-sky-600 dark:text-sky-400 font-mono font-semibold mt-0.5">Datavalley India Pvt. Ltd. & APSCHE Program</p>
           </div>
-          <span class="px-3.5 py-1 rounded-full bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#86868b] text-xs font-mono shrink-0 self-start sm:self-auto">
+          <span class="px-3.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-xs font-mono shrink-0 self-start sm:self-auto">
             May 2026 – Jun 2026 (8 Weeks)
           </span>
         </div>
 
-        <ul class="space-y-3 text-xs sm:text-sm text-[#515154] dark:text-slate-300 leading-relaxed">
+        <ul class="space-y-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
           <li class="flex items-start gap-2.5">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0071e3] shrink-0 mt-0.5"></i>
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5"></i>
             <span>Completed an intensive 8-week cyber security internship program covering network security fundamentals, threat assessment, authentication protocols, and cryptography.</span>
           </li>
           <li class="flex items-start gap-2.5">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0071e3] shrink-0 mt-0.5"></i>
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5"></i>
             <span>Performed risk assessments, vulnerability scans, and hands-on system troubleshooting tasks using analytical problem-solving methodologies.</span>
           </li>
           <li class="flex items-start gap-2.5">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0071e3] shrink-0 mt-0.5"></i>
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5"></i>
             <span>Researched and applied secure software development practices to real-world application architectures and database integrations.</span>
           </li>
         </ul>
@@ -494,13 +489,13 @@
 
     <!-- Certifications & Education Section -->
     <section id="education" class="space-y-6">
-      <div class="flex items-center gap-3 border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] pb-4">
-        <div class="p-2 sm:p-2.5 rounded-2xl bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] border border-sky-200 dark:border-sky-800">
+      <div class="flex items-center gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-sky-100 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 border border-sky-200 dark:border-sky-800">
           <i data-lucide="graduation-cap" class="w-5 h-5"></i>
         </div>
         <div>
-          <h2 class="text-lg sm:text-xl font-bold text-[#1d1d1f] dark:text-white tracking-tight">Certifications & Education</h2>
-          <p class="text-xs text-[#86868b] mt-0.5">Academic degrees, verified credentials, and specialized coursework</p>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white tracking-tight">Certifications & Education</h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Academic degrees, verified credentials, and specialized coursework</p>
         </div>
       </div>
 
@@ -508,88 +503,88 @@
         
         <!-- Certifications List -->
         <div class="space-y-4">
-          <h3 class="text-xs font-mono font-bold uppercase text-[#86868b] tracking-wider flex items-center gap-1.5">
-            <i data-lucide="award" class="w-4 h-4 text-[#0071e3]"></i> Verified Certifications
+          <h3 class="text-xs font-mono font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider flex items-center gap-1.5">
+            <i data-lucide="award" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Verified Certifications
           </h3>
           
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">Oracle Cloud Infrastructure (OCI) AI Foundations</h4>
-                <p class="text-xs text-[#0071e3] dark:text-[#38bdf8] font-mono font-semibold mt-0.5">Oracle Certified Associate</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">Oracle Cloud Infrastructure (OCI) AI Foundations</h4>
+                <p class="text-xs text-sky-600 dark:text-sky-400 font-mono font-semibold mt-0.5">Oracle Certified Associate</p>
               </div>
-              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] dark:text-[#38bdf8] text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
+              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
                 2025
               </span>
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Certified foundational knowledge in Machine Learning (ML), Deep Learning architectures, Generative AI models, Large Language Models (LLMs), and cloud AI infrastructure services.
             </p>
 
-            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-[#e5e5ea] dark:border-[#2c2c2e]">
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Artificial Intelligence</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Generative AI & LLMs</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Oracle Cloud</span>
+            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-slate-100 dark:border-slate-800">
+              <span class="dev-tag">Artificial Intelligence</span>
+              <span class="dev-tag">Generative AI & LLMs</span>
+              <span class="dev-tag">Oracle Cloud</span>
             </div>
           </div>
 
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">Oracle Certified Java Foundations</h4>
-                <p class="text-xs text-[#0071e3] dark:text-[#38bdf8] font-mono font-semibold mt-0.5">Oracle Junior Associate</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">Oracle Certified Java Foundations</h4>
+                <p class="text-xs text-sky-600 dark:text-sky-400 font-mono font-semibold mt-0.5">Oracle Junior Associate</p>
               </div>
-              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] dark:text-[#38bdf8] text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
+              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
                 2024
               </span>
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Certified core Java programming fundamentals, Object-Oriented Programming principles (Abstraction, Inheritance, Polymorphism, Encapsulation), data structures, algorithms, and exception handling.
             </p>
 
-            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-[#e5e5ea] dark:border-[#2c2c2e]">
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Java Core</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">OOP Design</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Algorithms</span>
+            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-slate-100 dark:border-slate-800">
+              <span class="dev-tag">Java Core</span>
+              <span class="dev-tag">OOP Design</span>
+              <span class="dev-tag">Algorithms</span>
             </div>
           </div>
 
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">Data Analytics Virtual Experience</h4>
-                <p class="text-xs text-[#0071e3] dark:text-[#38bdf8] font-mono font-semibold mt-0.5">Deloitte Australia (Forage)</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">Data Analytics Virtual Experience</h4>
+                <p class="text-xs text-sky-600 dark:text-sky-400 font-mono font-semibold mt-0.5">Deloitte Australia (Forage)</p>
               </div>
-              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-[#0071e3] dark:text-[#38bdf8] text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
+              <span class="px-2.5 py-0.5 rounded-full bg-sky-50 dark:bg-sky-950/80 text-sky-600 dark:text-sky-400 text-[11px] font-mono font-semibold shrink-0 border border-sky-200 dark:border-sky-800">
                 2024
               </span>
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Completed practical simulation tasks involving data preparation, statistical metrics analysis, dashboard visualization, SQL database querying, and business intelligence reporting.
             </p>
 
-            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-[#e5e5ea] dark:border-[#2c2c2e]">
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Data Analytics</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">SQL Queries</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Data Visualization</span>
+            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-slate-100 dark:border-slate-800">
+              <span class="dev-tag">Data Analytics</span>
+              <span class="dev-tag">SQL Queries</span>
+              <span class="dev-tag">Data Visualization</span>
             </div>
           </div>
         </div>
 
         <!-- Education Timeline -->
         <div class="space-y-4">
-          <h3 class="text-xs font-mono font-bold uppercase text-[#86868b] tracking-wider flex items-center gap-1.5">
-            <i data-lucide="book-open" class="w-4 h-4 text-[#0071e3]"></i> Academic History
+          <h3 class="text-xs font-mono font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider flex items-center gap-1.5">
+            <i data-lucide="book-open" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Academic History
           </h3>
 
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">B.Tech in Information Technology</h4>
-                <p class="text-xs text-[#86868b] font-mono mt-0.5">Andhra Loyola Institute of Engineering & Tech (ALIET)</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">B.Tech in Information Technology</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 font-mono mt-0.5">Andhra Loyola Institute of Engineering & Tech (ALIET)</p>
               </div>
               <span class="px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 text-[11px] font-mono font-bold shrink-0 border border-emerald-200 dark:border-emerald-500/20">
                 2023 – 2027
@@ -600,46 +595,46 @@
               <i data-lucide="award" class="w-3.5 h-3.5"></i> CGPA: 7.78 / 10.0
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Specializing in software engineering, Data Structures & Algorithms, database management, and cloud integrations. Active participant in national hackathons and developer communities.
             </p>
 
-            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-[#e5e5ea] dark:border-[#2c2c2e]">
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">DSA</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">OOP</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">DBMS & SQL</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Operating Systems</span>
-              <span class="px-2 py-0.5 rounded bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-[11px] font-mono">Networks & Security</span>
+            <div class="flex flex-wrap gap-1.5 pt-1 border-t border-slate-100 dark:border-slate-800">
+              <span class="dev-tag">DSA</span>
+              <span class="dev-tag">OOP</span>
+              <span class="dev-tag">DBMS & SQL</span>
+              <span class="dev-tag">Operating Systems</span>
+              <span class="dev-tag">Networks & Security</span>
             </div>
           </div>
 
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">Intermediate (Class XII - MPC)</h4>
-                <p class="text-xs text-[#86868b] font-mono mt-0.5">Sri Chaitanya Junior College | BIEAP</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">Intermediate (Class XII - MPC)</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 font-mono mt-0.5">Sri Chaitanya Junior College | BIEAP</p>
               </div>
-              <span class="px-2.5 py-0.5 rounded-full bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#86868b] text-[11px] font-mono shrink-0">
+              <span class="px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[11px] font-mono shrink-0">
                 2020 – 2022
               </span>
             </div>
 
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#1d1d1f] dark:text-slate-300 text-xs font-mono font-semibold">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-xs font-mono font-semibold">
               Score: 64% | Mathematics, Physics & Chemistry
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Focused on higher secondary mathematics, linear algebra, calculus, physics problem solving, and analytical logic foundational to computer engineering.
             </p>
           </div>
 
-          <div class="apple-card p-4.5 sm:p-5 space-y-3">
+          <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
-                <h4 class="text-sm sm:text-base font-bold text-[#1d1d1f] dark:text-white">Secondary School Certificate (SSC)</h4>
-                <p class="text-xs text-[#86868b] font-mono mt-0.5">St. John’s E.M. High School | Board of Secondary Education AP</p>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white">Secondary School Certificate (SSC)</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 font-mono mt-0.5">St. John’s E.M. High School | Board of Secondary Education AP</p>
               </div>
-              <span class="px-2.5 py-0.5 rounded-full bg-[#f5f5f7] dark:bg-[#2c2c2e] text-[#86868b] text-[11px] font-mono shrink-0">
+              <span class="px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 text-[11px] font-mono shrink-0">
                 2009 – 2020
               </span>
             </div>
@@ -648,7 +643,7 @@
               <i data-lucide="trophy" class="w-3.5 h-3.5"></i> Score: 100% (10.0 GPA Perfect Score)
             </div>
 
-            <p class="text-xs text-[#515154] dark:text-slate-300 leading-relaxed">
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
               Completed secondary education with a perfect 10.0 GPA score, demonstrating academic excellence, mathematics proficiency, and foundational computer studies.
             </p>
           </div>
@@ -658,37 +653,37 @@
     </section>
 
     <!-- Contact CTA Footer Card -->
-    <section id="contact" class="apple-card p-6 sm:p-11 text-center space-y-5 sm:space-y-6 no-print">
+    <section id="contact" class="dev-card p-6 sm:p-10 text-center space-y-5 sm:space-y-6 no-print">
       <div class="max-w-xl mx-auto space-y-2.5">
-        <h2 class="text-xl sm:text-3xl font-extrabold text-[#1d1d1f] dark:text-white tracking-tight">Let's Connect & Build Great Software</h2>
-        <p class="text-xs sm:text-sm text-[#515154] dark:text-slate-300 leading-relaxed">
+        <h2 class="text-xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">Let's Connect & Build Great Software</h2>
+        <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
           I am actively seeking entry-level software developer roles, Python/DSA engineering positions, and developer internships. Feel free to reach out directly via email!
         </p>
       </div>
 
       <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center justify-center gap-3 sm:gap-3.5 pt-2">
-        <a href="mailto:23HP1A1249@gmail.com" class="apple-btn-primary text-xs inline-flex items-center justify-center gap-2">
+        <a href="mailto:23HP1A1249@gmail.com" class="dev-btn-primary text-xs inline-flex items-center justify-center gap-2">
           <i data-lucide="mail" class="w-4 h-4"></i> Email Me: 23HP1A1249@gmail.com
         </a>
 
-        <button onclick="copyText('23HP1A1249@gmail.com', 'Email')" class="apple-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="copy" class="w-4 h-4 text-[#0071e3]"></i> Copy Email
+        <button onclick="copyText('23HP1A1249@gmail.com', 'Email')" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
+          <i data-lucide="copy" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Copy Email
         </button>
 
-        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="apple-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="github" class="w-4 h-4 text-[#0071e3]"></i> GitHub Profile
+        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
+          <i data-lucide="github" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> GitHub Profile
         </a>
 
-        <a href="https://linkedin.com" target="_blank" rel="noopener" class="apple-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="linkedin" class="w-4 h-4 text-[#0071e3]"></i> LinkedIn Profile
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
+          <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
         </a>
 
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="download" class="w-4 h-4 text-[#0071e3]"></i> Download Resume PDF
+        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
+          <i data-lucide="download" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Download Resume PDF
         </a>
 
-        <button onclick="openResumeModal()" class="apple-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="file-text" class="w-4 h-4 text-[#0071e3]"></i> Live Resume Viewer
+        <button onclick="openResumeModal()" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
+          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Live Resume Viewer
         </button>
       </div>
     </section>
@@ -696,57 +691,57 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t-2 border-[#e5e5ea] dark:border-[#2c2c2e] py-6 sm:py-8 text-center text-xs text-[#86868b] no-print">
+  <footer class="border-t border-slate-200 dark:border-slate-800 py-6 sm:py-8 text-center text-xs text-slate-500 dark:text-slate-400 no-print">
     <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="font-medium">Abdul Rahman — Software Developer Portfolio</div>
       <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-5">
-        <a href="mailto:23HP1A1249@gmail.com" class="hover:text-[#0071e3] transition-colors flex items-center gap-1">
-          <i data-lucide="mail" class="w-3.5 h-3.5 text-[#0071e3]"></i> Email
+        <a href="mailto:23HP1A1249@gmail.com" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> Email
         </a>
-        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="hover:text-[#0071e3] transition-colors flex items-center gap-1">
-          <i data-lucide="github" class="w-3.5 h-3.5 text-[#0071e3]"></i> GitHub
+        <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1">
+          <i data-lucide="github" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> GitHub
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener" class="hover:text-[#0071e3] transition-colors flex items-center gap-1">
-          <i data-lucide="linkedin" class="w-3.5 h-3.5 text-[#0071e3]"></i> LinkedIn
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1">
+          <i data-lucide="linkedin" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> LinkedIn
         </a>
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="hover:text-[#0071e3] transition-colors flex items-center gap-1 font-semibold">
-          <i data-lucide="download" class="w-3.5 h-3.5 text-[#0071e3]"></i> Resume PDF
+        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1 font-semibold">
+          <i data-lucide="download" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> Resume PDF
         </a>
       </div>
     </div>
   </footer>
 
   <!-- Interactive Resume Preview Modal -->
-  <div id="resume-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/75 backdrop-blur-xl p-3 sm:p-4">
-    <div class="bg-white dark:bg-[#161617] border-2 border-[#e5e5ea] dark:border-[#2c2c2e] rounded-3xl w-[95%] max-w-4xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
+  <div id="resume-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/75 backdrop-blur-md p-3 sm:p-4">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl w-[95%] max-w-4xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
       
       <!-- Modal Header -->
-      <div class="p-3.5 sm:p-4 border-b-2 border-[#e5e5ea] dark:border-[#2c2c2e] flex items-center justify-between bg-[#f5f5f7] dark:bg-black">
-        <span class="text-xs font-mono text-[#1d1d1f] dark:text-[#f5f5f7] font-semibold flex items-center gap-1.5 truncate">
-          <i data-lucide="file-text" class="w-4 h-4 text-[#0071e3] shrink-0"></i> <span class="truncate">Resume_Rahman_Abdul.pdf</span>
+      <div class="p-3.5 sm:p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-950">
+        <span class="text-xs font-mono text-slate-800 dark:text-slate-200 font-semibold flex items-center gap-1.5 truncate">
+          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0"></i> <span class="truncate">Resume_Rahman_Abdul.pdf</span>
         </span>
         <div class="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-primary px-3 py-1.5 text-xs font-semibold flex items-center gap-1">
+          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary px-3 py-1.5 text-xs font-semibold flex items-center gap-1">
             <i data-lucide="download" class="w-3.5 h-3.5"></i> <span class="hidden sm:inline">Download</span> PDF
           </a>
-          <a href="Resume_Rahman_Abdul.pdf" target="_blank" rel="noopener" class="apple-btn-secondary px-3 py-1.5 text-xs font-medium hidden sm:flex items-center gap-1.5">
+          <a href="Resume_Rahman_Abdul.pdf" target="_blank" rel="noopener" class="dev-btn-secondary px-3 py-1.5 text-xs font-medium hidden sm:flex items-center gap-1.5">
             <i data-lucide="external-link" class="w-3.5 h-3.5"></i> New Tab
           </a>
-          <button onclick="closeResumeModal()" class="p-1.5 rounded-full text-[#86868b] hover:text-[#1d1d1f] dark:hover:text-white transition-colors" title="Close Modal">
+          <button onclick="closeResumeModal()" class="p-1.5 rounded-lg text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors" title="Close Modal">
             <i data-lucide="x" class="w-4 h-4"></i>
           </button>
         </div>
       </div>
 
       <!-- PDF Viewer Body -->
-      <div class="p-3 sm:p-5 overflow-y-auto flex-1 bg-[#f5f5f7] dark:bg-black/50 space-y-3 sm:space-y-4">
+      <div class="p-3 sm:p-5 overflow-y-auto flex-1 bg-slate-100/50 dark:bg-slate-950/50 space-y-3 sm:space-y-4">
         <iframe src="Resume_Rahman_Abdul.pdf" class="resume-iframe"></iframe>
 
-        <div class="apple-card p-3.5 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <div class="text-[#515154] dark:text-slate-300 text-center sm:text-left">
-            <span class="font-bold text-[#1d1d1f] dark:text-white">Abdul Rahman — Resume PDF</span> (107 KB)
+        <div class="dev-card p-3.5 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+          <div class="text-slate-600 dark:text-slate-300 text-center sm:text-left">
+            <span class="font-bold text-slate-900 dark:text-white">Abdul Rahman — Resume PDF</span> (107 KB)
           </div>
-          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="apple-btn-primary w-full sm:w-auto px-4 py-2 text-xs font-semibold flex items-center justify-center gap-1.5">
+          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary w-full sm:w-auto px-4 py-2 text-xs font-semibold flex items-center justify-center gap-1.5">
             <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
           </a>
         </div>
