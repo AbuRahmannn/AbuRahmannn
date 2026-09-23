@@ -11,6 +11,9 @@
 
   <!-- Quick Action Badge Bar -->
   <p align="center">
+    <a href="https://aburahmannn.github.io/AbuRahmannn/">
+      <img src="https://img.shields.io/badge/Live-Portfolio-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+    </a>
     <a href="https://github.com/AbuRahmannn">
       <img src="https://img.shields.io/badge/Status-%F0%9F%9F%A2%20Open%20for%20Software%20Developer%20Roles-0284c7?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status Badge" />
     </a>
@@ -40,6 +43,7 @@
 [+] NAME        : Abdul Rahman
 [+] DEGREE      : B.Tech in Information Technology @ ALIET (2023–2027)
 [+] CGPA        : 7.78 / 10.0
+[+] PORTFOLIO   : https://aburahmannn.github.io/AbuRahmannn/
 [+] CORE FOCUS  : Data Structures & Algorithms (DSA), Python, Software Engineering
 [+] TECH STACK  : Django, SQL, MySQL, Firebase Auth, Cloud Firestore, REST APIs
 [+] LOCATION    : Vijayawada, AP, India (Open to Remote / Hybrid / Onsite Relocation)
@@ -84,6 +88,7 @@
 
 > I am a passionate **Software Developer & B.Tech Information Technology student** with strong problem-solving skills in **Data Structures & Algorithms (DSA)** and expertise in **Python full-stack development**.
 > 
+> - 🌐 **Live Web Portfolio:** [aburahmannn.github.io/AbuRahmannn](https://aburahmannn.github.io/AbuRahmannn/)
 > - 🔭 **Core Competencies:** Building web applications using **Django, SQL, MySQL, Firebase, and RESTful APIs**.
 > - 🧠 **CS Foundations:** Strong knowledge of **Object-Oriented Programming (OOP), DBMS, Operating Systems, Computer Networks, Network Security, and Cryptography**.
 > - ⚡ **Current Focus:** Solving DSA problems in Python, building scalable backend services, and preparing for high-impact software engineering roles.
@@ -253,6 +258,7 @@
 <div align="center">
   <br/>
   <p>
+    <a href="https://aburahmannn.github.io/AbuRahmannn/"><img src="https://img.shields.io/badge/Live_Portfolio-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
     <a href="mailto:23HP1A1249@gmail.com"><img src="https://img.shields.io/badge/Get_In_Touch-Email_Me-0284c7?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="Resume_Rahman_Abdul.pdf"><img src="https://img.shields.io/badge/View_Resume-Download_PDF-0071e3?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
