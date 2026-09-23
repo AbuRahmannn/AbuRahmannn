@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Abdul Rahman — Software Developer Portfolio | Python, DSA & Full-Stack</title>
   <meta name="description" content="Personal portfolio of Abdul Rahman - B.Tech Information Technology student at ALIET focused on Python, Data Structures & Algorithms, Django, SQL, MySQL, Firebase, and Software Development.">
-  
+
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Lucide Icons -->
@@ -245,7 +245,7 @@ code, pre, .font-mono {
   <!-- Fixed Navigation Header -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-white/85 dark:bg-slate-950/85 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800/80 no-print transition-colors">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      
+
       <!-- Brand Logo -->
       <a href="#" class="flex items-center gap-1.5 font-mono font-bold text-sm tracking-tight text-slate-900 dark:text-slate-100 hover:text-sky-600 dark:hover:text-sky-400 transition-colors shrink-0">
         <span class="text-sky-600 dark:text-sky-400">&lt;</span><span class="bg-gradient-to-r from-sky-600 to-indigo-600 dark:from-sky-400 dark:to-indigo-400 text-transparent bg-clip-text font-extrabold">AbdulRahman</span> <span class="text-sky-600 dark:text-sky-400">/&gt;</span>
@@ -301,7 +301,7 @@ code, pre, .font-mono {
       <a href="#education" class="block py-3 hover:text-sky-600 dark:hover:text-sky-400 font-medium transition-colors">
         <i data-lucide="graduation-cap" class="w-4 h-4 inline mr-2 text-sky-600 dark:text-sky-400"></i> Education
       </a>
-      
+
       <div class="pt-3 pb-4 flex flex-col gap-2.5 border-t border-slate-200 dark:border-slate-800">
         <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
           <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
@@ -319,10 +319,10 @@ code, pre, .font-mono {
     <!-- About / Hero Section -->
     <section id="about" class="pt-2">
       <div class="flex flex-col-reverse md:flex-row md:items-center justify-between gap-8 sm:gap-10">
-        
+
         <!-- Text & Info -->
         <div class="space-y-5 sm:space-y-6 flex-1">
-          
+
           <!-- Recruiter Availability Badge -->
           <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/20 text-emerald-700 dark:text-emerald-400 text-xs font-mono font-medium shadow-sm">
             <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span> Open for Software Developer & Python/DSA Roles (B.Tech IT '27)
@@ -357,7 +357,6 @@ code, pre, .font-mono {
           <div class="space-y-3 pt-1">
             <!-- Row 1: Primary Actions -->
             <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
-
               <!-- Secondary Action: GitHub Profile -->
               <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
                 <i data-lucide="github" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> github.com/AbuRahmannn
@@ -367,7 +366,6 @@ code, pre, .font-mono {
               <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
                 <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
               </a>
-
             </div>
 
             <!-- Row 2: Email Actions -->
@@ -381,14 +379,12 @@ code, pre, .font-mono {
               </button>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <!-- Recruiter Snapshot Metrics Grid (4 Metric Boxes Fully Covered & Richly Detailed) -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-slate-200 dark:border-slate-800">
-        
+
         <!-- Box 1: Target Role -->
         <div class="dev-card p-4 sm:p-5 space-y-1.5 sm:space-y-2">
           <div class="flex items-center gap-2 text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider">
@@ -432,7 +428,6 @@ code, pre, .font-mono {
             Available for Onsite, Hybrid & Remote engineering roles across India & globally.
           </p>
         </div>
-
       </div>
     </section>
 
@@ -451,7 +446,7 @@ code, pre, .font-mono {
       </div>
 
       <div class="grid md:grid-cols-2 gap-5 sm:gap-6">
-        
+
         <!-- Project 1: AgriSetu -->
         <div class="dev-card p-5 sm:p-6 flex flex-col justify-between">
           <div class="space-y-4">
@@ -545,7 +540,6 @@ code, pre, .font-mono {
             <span class="dev-tag">REST API</span>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -562,7 +556,7 @@ code, pre, .font-mono {
       </div>
 
       <div class="grid sm:grid-cols-2 gap-4 sm:gap-5">
-        
+
         <div class="dev-card p-4 sm:p-5 space-y-3.5">
           <div class="text-xs font-mono font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider flex items-center gap-2">
             <i data-lucide="terminal" class="w-4 h-4"></i> Languages & Logic
@@ -625,7 +619,6 @@ code, pre, .font-mono {
             <span class="dev-tag text-purple-700 dark:text-purple-300 border-purple-300 dark:border-purple-600">Cryptography</span>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -682,13 +675,13 @@ code, pre, .font-mono {
       </div>
 
       <div class="grid md:grid-cols-2 gap-5 sm:gap-6">
-        
+
         <!-- Certifications List -->
         <div class="space-y-4">
           <h3 class="text-xs font-mono font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider flex items-center gap-1.5">
             <i data-lucide="award" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Verified Certifications
           </h3>
-          
+
           <div class="dev-card p-4.5 sm:p-5 space-y-3">
             <div class="flex flex-wrap items-start justify-between gap-2">
               <div>
@@ -830,7 +823,6 @@ code, pre, .font-mono {
             </p>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -859,7 +851,6 @@ code, pre, .font-mono {
         <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
           <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
         </a>
-
       </div>
     </section>
 
