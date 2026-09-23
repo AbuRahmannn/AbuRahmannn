@@ -229,17 +229,17 @@
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=transparent&hide_border=false&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_color=0284c7&bg_color=090d16" alt="GitHub Stats" width="410" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=AbuRahmannn&show_icons=true&theme=transparent&hide_border=false&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_color=0284c7&bg_color=090d16" alt="GitHub Stats" width="410" />
       </td>
       <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=transparent&hide_border=false&title_color=38bdf8&text_color=e2e8f0&border_color=0284c7&bg_color=090d16" alt="Top Languages" width="370" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AbuRahmannn&layout=compact&theme=transparent&hide_border=false&title_color=38bdf8&text_color=e2e8f0&border_color=0284c7&bg_color=090d16" alt="Top Languages" width="370" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbuRahmannn&theme=dark&background=090D16&border=0284C7&stroke=0284C7&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak Stats" width="790" />
+  <img src="https://streak-stats.demolab.com?user=AbuRahmannn&theme=dark&background=090D16&border=0284C7&stroke=0284C7&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak Stats" width="790" />
 
   <br/><br/>
 
