@@ -196,28 +196,11 @@ code, pre, .font-mono {
   transform: translateY(0);
 }
 
-/* Resume PDF Viewer Container */
-.resume-iframe {
-  width: 100%;
-  height: 68vh;
-  border-radius: 0.75rem;
-  border: 1px solid #cbd5e1;
-  background-color: #ffffff;
-}
-
-.dark .resume-iframe {
-  border-color: #1e293b;
-}
-
 /* Mobile Responsiveness Overrides */
 @media (max-width: 639px) {
   .dev-card {
     padding: 1.15rem !important;
     border-radius: 0.875rem !important;
-  }
-
-  .resume-iframe {
-    height: 52vh !important;
   }
 
   #toast {
@@ -294,11 +277,6 @@ code, pre, .font-mono {
           <i data-lucide="linkedin" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> LinkedIn
         </a>
 
-        <!-- Primary Resume PDF Download Button -->
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary hidden sm:inline-flex items-center gap-1.5 text-xs" title="Download PDF Resume">
-          <i data-lucide="download" class="w-3.5 h-3.5"></i> Download Resume
-        </a>
-
         <!-- Mobile Menu Button -->
         <button id="mobile-menu-btn" class="md:hidden p-2 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100">
           <i data-lucide="menu" class="w-4 h-4"></i>
@@ -325,18 +303,12 @@ code, pre, .font-mono {
       </a>
       
       <div class="pt-3 pb-4 flex flex-col gap-2.5 border-t border-slate-200 dark:border-slate-800">
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary w-full py-3 text-xs font-semibold flex items-center justify-center gap-2">
-          <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
-        </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
           <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
         </a>
         <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
           <i data-lucide="github" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> GitHub Profile
         </a>
-        <button onclick="openResumeModal()" class="dev-btn-secondary w-full py-3 text-xs font-medium flex items-center justify-center gap-2">
-          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Preview Resume Modal
-        </button>
       </div>
     </div>
   </header>
@@ -348,7 +320,7 @@ code, pre, .font-mono {
     <section id="about" class="pt-2">
       <div class="flex flex-col-reverse md:flex-row md:items-center justify-between gap-8 sm:gap-10">
         
-        <!-- Text & Profile Info -->
+        <!-- Text & Info -->
         <div class="space-y-5 sm:space-y-6 flex-1">
           
           <!-- Recruiter Availability Badge -->
@@ -385,10 +357,6 @@ code, pre, .font-mono {
           <div class="space-y-3 pt-1">
             <!-- Row 1: Primary Actions -->
             <div class="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2.5 sm:gap-3">
-              <!-- Primary Action: Direct Download Resume PDF -->
-              <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary inline-flex items-center justify-center gap-2 text-xs">
-                <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
-              </a>
 
               <!-- Secondary Action: GitHub Profile -->
               <a href="https://github.com/AbuRahmannn" target="_blank" rel="noopener" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
@@ -400,10 +368,6 @@ code, pre, .font-mono {
                 <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
               </a>
 
-              <!-- Secondary Action: Preview Resume Modal -->
-              <button onclick="openResumeModal()" class="dev-btn-secondary inline-flex items-center justify-center gap-2 text-xs">
-                <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Preview Resume
-              </button>
             </div>
 
             <!-- Row 2: Email Actions -->
@@ -418,16 +382,6 @@ code, pre, .font-mono {
             </div>
           </div>
 
-        </div>
-
-        <!-- Profile Headshot Avatar -->
-        <div class="shrink-0 flex justify-center md:justify-end relative">
-          <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-sky-500 to-indigo-500 opacity-20 blur-xl"></div>
-          <img 
-            src="pfp.jpeg" 
-            alt="Abdul Rahman" 
-            class="relative w-32 h-32 sm:w-48 sm:h-48 rounded-2xl object-cover border-2 border-white dark:border-slate-800 shadow-xl"
-          >
         </div>
 
       </div>
@@ -906,13 +860,6 @@ code, pre, .font-mono {
           <i data-lucide="linkedin" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> LinkedIn Profile
         </a>
 
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="download" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Download Resume PDF
-        </a>
-
-        <button onclick="openResumeModal()" class="dev-btn-secondary text-xs inline-flex items-center justify-center gap-2">
-          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400"></i> Live Resume Viewer
-        </button>
       </div>
     </section>
 
@@ -932,50 +879,9 @@ code, pre, .font-mono {
         <a href="https://linkedin.com" target="_blank" rel="noopener" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1">
           <i data-lucide="linkedin" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> LinkedIn
         </a>
-        <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="hover:text-sky-600 dark:hover:text-sky-400 transition-colors flex items-center gap-1 font-semibold">
-          <i data-lucide="download" class="w-3.5 h-3.5 text-sky-600 dark:text-sky-400"></i> Resume PDF
-        </a>
       </div>
     </div>
   </footer>
-
-  <!-- Interactive Resume Preview Modal -->
-  <div id="resume-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/75 backdrop-blur-md p-3 sm:p-4">
-    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl w-[95%] max-w-4xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
-      
-      <!-- Modal Header -->
-      <div class="p-3.5 sm:p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-950">
-        <span class="text-xs font-mono text-slate-800 dark:text-slate-200 font-semibold flex items-center gap-1.5 truncate">
-          <i data-lucide="file-text" class="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0"></i> <span class="truncate">Resume_Rahman_Abdul.pdf</span>
-        </span>
-        <div class="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary px-3 py-1.5 text-xs font-semibold flex items-center gap-1">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> <span class="hidden sm:inline">Download</span> PDF
-          </a>
-          <a href="Resume_Rahman_Abdul.pdf" target="_blank" rel="noopener" class="dev-btn-secondary px-3 py-1.5 text-xs font-medium hidden sm:flex items-center gap-1.5">
-            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> New Tab
-          </a>
-          <button onclick="closeResumeModal()" class="p-1.5 rounded-lg text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors" title="Close Modal">
-            <i data-lucide="x" class="w-4 h-4"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- PDF Viewer Body -->
-      <div class="p-3 sm:p-5 overflow-y-auto flex-1 bg-slate-100/50 dark:bg-slate-950/50 space-y-3 sm:space-y-4">
-        <iframe src="Resume_Rahman_Abdul.pdf" class="resume-iframe"></iframe>
-
-        <div class="dev-card p-3.5 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <div class="text-slate-600 dark:text-slate-300 text-center sm:text-left">
-            <span class="font-bold text-slate-900 dark:text-white">Abdul Rahman — Resume PDF</span> (107 KB)
-          </div>
-          <a href="Resume_Rahman_Abdul.pdf" download="Resume_Rahman_Abdul.pdf" class="dev-btn-primary w-full sm:w-auto px-4 py-2 text-xs font-semibold flex items-center justify-center gap-1.5">
-            <i data-lucide="download" class="w-4 h-4"></i> Download Resume PDF
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <script>
 // Premium Developer Portfolio Scripts
@@ -993,8 +899,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // 3. Mobile Navigation Menu Toggle & Auto-Close
   initMobileNav();
 
-  // 4. Modal Event Listeners
-  initModalListeners();
 });
 
 function initLucideIcons() {
@@ -1105,47 +1009,7 @@ function initMobileNav() {
 }
 
 // ----------------------------------------------------
-// 4. Resume Modal Controls
-// ----------------------------------------------------
-function initModalListeners() {
-  const modal = document.getElementById('resume-modal');
-  if (!modal) return;
-
-  // ESC key to close
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-      closeResumeModal();
-    }
-  });
-
-  // Backdrop click to close
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      closeResumeModal();
-    }
-  });
-}
-
-function openResumeModal() {
-  const modal = document.getElementById('resume-modal');
-  if (modal) {
-    modal.classList.remove('hidden');
-    modal.classList.add('flex');
-    document.body.style.overflow = 'hidden';
-  }
-}
-
-function closeResumeModal() {
-  const modal = document.getElementById('resume-modal');
-  if (modal) {
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-    document.body.style.overflow = '';
-  }
-}
-
-// ----------------------------------------------------
-// 5. Toast & Clipboard Copy
+// 4. Toast & Clipboard Copy
 // ----------------------------------------------------
 function showToast(msg) {
   let toast = document.getElementById('toast');
