@@ -186,7 +186,7 @@
   <summary><b>💼 Work Experience</b></summary>
   <br/>
   <h4>🛡️ Cyber Security Intern — <i>Datavalley India Pvt. Ltd. & APSCHE Program</i></h4>
-  <p><code>May 2026 – Jun 2026 (8 Weeks)</code></p>
+  <p><code>May 2024 – Jun 2024 (8 Weeks)</code></p>
   <ul>
     <li>Completed an intensive 8-week cyber security internship program covering network security fundamentals, threat assessment, authentication protocols, and cryptography.</li>
     <li>Performed risk assessments, vulnerability scans, and hands-on system troubleshooting using analytical problem-solving methodologies.</li>
