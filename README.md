@@ -261,7 +261,7 @@
     <a href="https://aburahmannn.github.io/AbuRahmannn/"><img src="https://img.shields.io/badge/Live_Portfolio-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
     <a href="mailto:23HP1A1249@gmail.com"><img src="https://img.shields.io/badge/Get_In_Touch-Email_Me-0284c7?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="Resume_Rahman_Abdul.pdf"><img src="https://img.shields.io/badge/View_Resume-Download_PDF-0071e3?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" /></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/rahmanabd/"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   </p>
 
   <!-- Waving Footer Banner -->
